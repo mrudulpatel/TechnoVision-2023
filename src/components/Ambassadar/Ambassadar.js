@@ -12,7 +12,7 @@ const Ambassadar = () => {
     <section id="ambassador" className={classes.ambaSection}>
       <Background className={classes.ambassadar}>
         <div className={classes.headingBox}>
-          <h3 className={classes.heading}>Karma 22 Ambassadar Program</h3>
+          <h3 className={classes.heading}>TechnoVision Event Registration</h3>
           <p className={classes.para}>
             Leaders are born, if one have a strong spark in their heart. Here
             KARMA' 22 brings an opportunity to represent the college through "

@@ -15,7 +15,8 @@
     top: 3%;
     left: 50%;
     transform: translate(-50%);
-    background-color: rgba(0, 0, 0, 0.932);
+    /* background-color: rgba(0, 0, 0, 0.932); */
+    background-color: #00000080;
     padding: 2rem;
     color: #fff;
     z-index: 100;

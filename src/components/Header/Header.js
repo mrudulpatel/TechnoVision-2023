@@ -10,6 +10,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
 import Logo from "./header_logo.png";
+import { ExpandMore } from "@mui/icons-material";
 
 const Scroll = require("react-scroll");
 
@@ -78,17 +79,17 @@ const Header = () => {
             </li>
             <li
               className={`${classes.dropLink}`}
+              style={{display:"flex"}}
               onClick={() => setDrop(!drop)}
             >
               {drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}Events
-              <FontAwesomeIcon
-                size="sm"
-                style={{
+              <ExpandMore
+                
+                sx={{
                   display: "inline-block",
                   marginLeft: ".3rem",
                   color: "white",
                 }}
-                icon={faArrowDown}
                 fade
               />
             </li>
@@ -124,10 +125,9 @@ const Header = () => {
             </li>
           </ul>
 
-          <Link target="_blank" rel="noopener noreferrer" to="/tickets">
+          {/* <Link target="_blank" rel="noopener noreferrer" to="/tickets">
             <button className={classes.btn}>Buy Tickets</button>
-          </Link>
-
+          </Link> */}
 
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
             {mobile ? (
@@ -143,11 +143,11 @@ const Header = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          <Link target="_blank" rel="noopener noreferrer" to="/tickets">
+          {/* <Link target="_blank" rel="noopener noreferrer" to="/tickets">
             <button className={classes.btn1}>Buy Tickets</button>
-          </Link>
+          </Link> */}
 
- {/* Mobile Page */}
+          {/* Mobile Page */}
 
           <ul className={classes.mobileNav}>
             <li>
@@ -183,7 +183,17 @@ const Header = () => {
               </Drop>
             </li>
             <li className={`${classes.mobLink}`} onClick={() => setDrop(!drop)}>
-              {drop ? <Dropdown click={() => {setDrop(!drop); setMobile(!mobile)}} /> : ""}Events
+              {drop ? (
+                <Dropdown
+                  click={() => {
+                    setDrop(!drop);
+                    setMobile(!mobile);
+                  }}
+                />
+              ) : (
+                ""
+              )}
+              Events
               <FontAwesomeIcon
                 size="sm"
                 style={{
