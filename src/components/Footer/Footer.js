@@ -24,12 +24,14 @@ const Footer = () => {
 
         <div className={classes.col}>
           <h3>Contact us</h3>
-          <p>KMCT College Of Engineering, Kallanthode</p>
-          <p>NITC - P.O</p>
-          <p>Kozhikode - 673601</p>
-          <p className={classes.email}>karmakmct22@gmail.com</p>
-          <p className={classes.contactNo}>Shamsudheen C - 7012 824 370</p>
-          <p className={classes.contactNo}>Sithara beegam - 8592 002 134</p>
+          <p>JSPM Narhe Technical Campus</p>
+          <p>Survey No. 12/2/2 & 14/9, Pune Bangalore Highway, </p>
+          <p>Taluka Haveli, Narhe, </p>
+          <p> Pune, Maharashtra 411041</p>
+          <p className={classes.email}>jspmtechminds2022@gmail.com</p>
+          <p className={classes.contactNo}>Developers</p>
+          <p className={classes.contactNo}>Mrudul Patel - 8698793479</p>
+          <p className={classes.contactNo}>Atharva Kurumbhatte - 9422202294</p>
         </div>
 
         <div className={`${classes.col} ${classes.links}`}>
@@ -49,16 +51,16 @@ const Footer = () => {
               <li>Contact us</li>
             </HashLink>
 
-            <a
+            {/* <a
               href="https://docs.google.com/document/d/1cJfjOhoEfW_JhiMF-tUJXNWwRKxSIN-KrIlJCnh0EZ4/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Privacy policy</li>
-            </a>
+            </a> */}
 
-            <a
+            {/* <a
               href="https://docs.google.com/document/d/1VOnAodNTeF8ShOCxxVb_AXnxLKg2jKZCUY0QxbQd4nE/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
@@ -82,7 +84,7 @@ const Footer = () => {
               style={{ textDecoration: "none", color: "white" }}
             >
               <li>Shipping Policy</li>
-            </a>
+            </a> */}
           </ul>
         </div>
 
@@ -115,7 +117,7 @@ const Footer = () => {
       </div>
       <hr className={classes.hr} />
       <p className={classes.copyright}>
-        Karma'22 | Copyright &#169; All rights reserved.
+        TechnoVision '23 | Copyright &#169; All rights reserved.
       </p>
     </footer>
   );

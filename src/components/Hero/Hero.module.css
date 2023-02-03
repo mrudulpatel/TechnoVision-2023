@@ -35,6 +35,23 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.heading1 {
+    /* font-size: 8;
+    text-transform: uppercase;
+    color: transparent;
+    font-weight: 700;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #fff; */
+    font-family: myFirstFont;
+    font-size: 7rem;
+    padding: 1rem;
+    font-weight: bolder;
+    display: inline-block;
+    background-image: linear-gradient(to bottom,#09B326, #32B4ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .logo{
     margin-bottom: 3.5rem;
 }

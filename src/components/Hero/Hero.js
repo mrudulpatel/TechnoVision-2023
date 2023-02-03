@@ -1,6 +1,7 @@
 // import { useEffect, useRef } from "react";
 import classes from "./Hero.module.css";
 import { Link } from "react-router-dom";
+import Countdown from "react-countdown";
 
 const Hero = () => {
   // const [countDays, setDays] = useState(false);
@@ -47,12 +48,20 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-          <h1 className={classes.heading}>Karma 22</h1>
+          <h1 className={classes.heading}>TechnoVision 2023</h1>
           <h4 className={classes.caption}>What goes around comes around</h4>
-          <p className={classes.date}>MAY 21-23, 2022</p>
-          <Link className={classes.anchorBtn} target="_blank" rel="noopener noreferrer" to="/tickets">
-            <button className={classes.btn}>Tickets on sale now !</button>
+          <p className={classes.date}>FEB 28-29, 2023</p>
+          <Countdown className={classes.heading1} date={new Date("2023-02-28")}  />
+          <br />
+          <Link
+            className={classes.anchorBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+            to="/tickets"
+          >
+            <button className={classes.btn}>Register Now!</button>
           </Link>
+          
         </div>
 
         {/* <div className={classes.countdownbox}>

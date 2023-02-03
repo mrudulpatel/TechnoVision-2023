@@ -6,8 +6,7 @@ const ContactUs = () => {
     <section id="contact" className={classes.contact}>
       <div className={classes.contactBox}>
         <div className={classes.contentBox}>
-
-            <Faq />
+          <Faq />
           {/* <div className={classes.persons}>
 
             <div className={classes.personBox}>
@@ -38,13 +37,12 @@ const ContactUs = () => {
           <div className={classes.mapBox}>
             <iframe
               className={classes.map}
-              title="Kmct Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1956.153609468383!2d75.95371039076552!3d11.31224067999375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba643af748ee911%3A0x542a35d383bb1999!2sKMCT%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1652027577733!5m2!1sen!2sin"
+              title="JSPM Narhe Technical Campus"
+              src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=JSPM%20Narhe%20Technical%20Campus+(JSPM%20Narhe%20Technical%20Campus)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               loading="lazy"
               style={{ border: 0 }}
             ></iframe>
           </div>
-
         </div>
       </div>
     </section>
