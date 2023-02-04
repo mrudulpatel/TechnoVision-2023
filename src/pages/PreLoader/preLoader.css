@@ -53,3 +53,17 @@
       opacity: 0;
     }
   }
+
+  @media screen and (max-width:480px) {
+    .preLoaderheading{ 
+      font-size: 8rem;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    .preLoaderheading{ 
+      font-size: 4.5rem;
+      text-align: center;
+    }
+  }
