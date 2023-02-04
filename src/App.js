@@ -27,7 +27,7 @@ function App() {
       <Events />
       <Gallery />
       <Ambassadar />
-      <Alumni />
+      {/* <Alumni /> */}
       <ContactUs />
     </Fragment>
   );

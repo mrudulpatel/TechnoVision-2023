@@ -1,11 +1,11 @@
 .games {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
-    max-width: 95%;
-    margin: 3rem auto;
+    gap: 4rem;
+    max-width: 90%;
+    margin: 5rem auto;
     padding: 3rem 6rem;
 }
 

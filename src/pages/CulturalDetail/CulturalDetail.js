@@ -6,9 +6,9 @@ import { useEffect } from "react";
 
 const CulturalDetail = () => {
 
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
   
   const params = useParams();
   console.log(params.id);
@@ -27,7 +27,7 @@ const CulturalDetail = () => {
         <div className={classes.imgBox}>
           <img
             className={classes.img}
-            src={culturalDetail[0].imgSrc}
+            src={culturalDetail[0]?.imgSrc}
             alt="Desafio"
           />
         </div>

@@ -20,7 +20,7 @@ const TechnicalLists = [
   // },
   {
     id: 2,
-    name: "ansys",
+    name: "circuitmania",
     imgSrc: "/assets/Workshops/ansys.png",
     heading: "Circuit Mania",
     headingPara:
@@ -42,11 +42,11 @@ const TechnicalLists = [
     ],
 
     paymentLink: "https://rzp.io/l/Karma-Ansys",
-    redirectLink: "/events/technical/ansys",
+    redirectLink: "/events/entc/circuitmania",
   },
   {
     id: 3,
-    name: "arduino",
+    name: "gameofcode",
     imgSrc: "/assets/Workshops/arduino.png",
     heading: "Game of Code",
     headingPara:
@@ -63,11 +63,11 @@ const TechnicalLists = [
     ],
 
     paymentLink: "https://rzp.io/l/Karma-Arduino",
-    redirectLink: "/events/technical/arduino",
+    redirectLink: "/events/entc/gameofcode",
   },
   {
     id: 4,
-    name: "boq",
+    name: "speedheist",
     imgSrc: "/assets/Workshops/boq.png",
     heading: "Speed Heist",
     headingPara:
@@ -84,7 +84,7 @@ const TechnicalLists = [
     ],
 
     paymentLink: "https://rzp.io/l/Karma-BOQ",
-    redirectLink: "/events/technical/boq",
+    redirectLink: "/events/entc/speedheist",
   },
   
 ];

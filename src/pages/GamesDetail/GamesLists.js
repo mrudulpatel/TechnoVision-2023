@@ -3,7 +3,7 @@ const GamesLists = [
     id: 1,
     name: "pubg",
     imgSrc: "/assets/Games/pubg.svg",
-    heading: "PUBG",
+    heading: "Coming Soon",
     para: "KARMA'22 Is here with the PUBG- Chosen game by over 1 billion players worldwide Competition for the game enthusiasts. Play your favourite game and win over prizes worth 15k",
     rules: [
       "1. The competition will be supervised by the match controller and the decision of them will be final.",
@@ -16,13 +16,13 @@ const GamesLists = [
     ],
     regFee: " 50/-",
     paymentLink: "https://rzp.io/l/Karma-PUBG",
-    redirectLink: "/events/games/pubg",
+    redirectLink: "/events/mechnical/pubg",
   },
   {
     id: 2,
     name: "ludo",
     imgSrc: "/assets/Games/LUDO.png",
-    heading: "LUDO",
+    heading: "Coming Soon",
     para: "KARMA'22 is here with the amazing Ludo Competition for all the Ludo Kings and Queens. Show off all your skills you acquired on quarantine with this Ludo Game and win prizes worth 30K",
     rules: [
       "1. Competition will be done in the supervision of judges.",
@@ -31,13 +31,13 @@ const GamesLists = [
     ],
     regFee: " 30/-",
     paymentLink: "https://rzp.io/l/Karma-Ludo",
-    redirectLink: "/events/games/ludo",
+    redirectLink: "/events/mechanical/ludo",
   },
   {
     id: 3,
     name: "pes",
     imgSrc: "/assets/Games/PES.png",
-    heading: "PES",
+    heading: "Coming Soon",
     para: "KARMA'22 Presents PES Tournament  for all the PES players. Display your skills and win prizes over 15 K.",
     rules: [
       "1. Competition will be  conducted in the supervision of judges and the decision of them will be final. ",
@@ -48,7 +48,7 @@ const GamesLists = [
     ],
     regFee: " 100/-",
     paymentLink: "https://rzp.io/l/Karma-PES",
-    redirectLink: "/events/games/pes",
+    redirectLink: "/events/mechanical/pes",
   },
 ];
 

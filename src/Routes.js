@@ -5,6 +5,7 @@ import App from "./App";
 import Header from "./components/Header/Header";
 import Loader from "./UI/Loader/Loader";
 import Footer from "./components/Footer/Footer";
+import VideoPlayer from "./pages/Gallery/VideoPlayer";
 
 const Gallery = React.lazy(() => import("./pages/Gallery/Gallery"))
 const CulturalDetail = React.lazy(() => import("./pages/CulturalDetail/CulturalDetail"))
@@ -19,6 +20,7 @@ const Talk = React.lazy(() => import("./pages/Talk/Talk"))
 const GamesDetail = React.lazy(() => import("./pages/GamesDetail/GamesDetail"))
 const EventPage = React.lazy(() => import("./pages/EventPage/EventPage"))
 const Tickets = React.lazy(() => import("./pages/Tickets/Tickets"))
+const MBA = React.lazy(() => import("./pages/MBA/MBA"));
 
 const MyRoutes = () => {
   return (
@@ -30,19 +32,21 @@ const MyRoutes = () => {
           <Route path="/home" element={<App />} />
           <Route path="/" element={<Navigate to="home" />} />
           <Route exact path="/events/*" element={<EventPage />}>
-            <Route exact path="cultural" element={<Cultural />} />
-            <Route exact path="technical" element={<Technical />} />
-            <Route exact path="hackathon" element={<Hackathon />} />
-            <Route exact path="games" element={<Games />} />
-            <Route path="talk" element={<Talk />} />
+            <Route exact path="cs" element={<Cultural />} />
+            <Route exact path="entc" element={<Technical />} />
+            <Route exact path="civil" element={<Hackathon />} />
+            <Route exact path="mechanical" element={<Games />} />
+            <Route path="mca" element={<Talk />} />
+            <Route path="mba" element={<MBA />} />
           </Route>
-          <Route path="/events" element={<Navigate to="cultural" />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/events/cultural/:id" element={<CulturalDetail />} />
-          <Route path="/events/technical/:id" element={<TechnicalDetail />} />
-          <Route path="/events/hackathon/:id" element={<HackathonDetail />} />
-          <Route path="/events/games/:id" element={<GamesDetail />} />
-          <Route path="/events/talk/:id" element={<TalkDetail />} />
+          <Route path="/events" element={<Navigate to="cs" />} />
+          <Route path="/teasers" element={<Gallery />} />
+          <Route path="/teasers/watch/:id" element={<VideoPlayer />} />
+          <Route path="/events/cs/:id" element={<CulturalDetail />} />
+          <Route path="/events/entc/:id" element={<TechnicalDetail />} />
+          <Route path="/events/civil/:id" element={<HackathonDetail />} />
+          <Route path="/events/mechanical/:id" element={<GamesDetail />} />
+          <Route path="/events/mca/:id" element={<TalkDetail />} />
 
           <Route path="/tickets" element={<Tickets />} />
         </Routes>

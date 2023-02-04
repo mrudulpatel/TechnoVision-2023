@@ -29,7 +29,7 @@ const CulturalLists = [
   // },
   {
     id: 2,
-    name: "pencildrawing",
+    name: "projectposterpresentation",
     para: "Are you ready to beat you boredom?and fly high in the world of imagination,then the opportunity is here,𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐋𝐀𝐏𝐈𝐙' 𝐏𝐞𝐧𝐜𝐢𝐥 𝐃𝐫𝐚𝐰𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 ,Let your minds step into world of imagination...let's be engaged for while lost in thoughts... Let your white papers be kissed by pencil..",
     imgSrc: "/assets/cultural/pencildrawing.png",
     heading: "PROJECT POSTER PRESENTATION",
@@ -51,7 +51,7 @@ const CulturalLists = [
     contact2: "Kavyanjali | 7559031951",
 
     paymentLink: "https://rzp.io/l/Pencil-Drawing",
-    redirectLink: "/events/cultural/pencildrawing",
+    redirectLink: "/events/cs/projectposterpresentation",
   },
   // {
   //   id: 3,
@@ -89,7 +89,7 @@ const CulturalLists = [
   // },
   {
     id: 4,
-    name: "lightmusic",
+    name: "egaming",
     para: "Music is the universal language of mankind. Where words fail, music speaks. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with ' 𝐋𝐢𝐠𝐡𝐭 𝐌𝐮𝐬𝐢𝐜 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 '. Do participate and never miss a chance to show up your passion. Let your words speak through music !",
     imgSrc: "/assets/cultural/lightmusic.png",
     heading: "E - GAMING",
@@ -113,14 +113,14 @@ const CulturalLists = [
     contact2: "Joseph | 7034193478",
 
     paymentLink: "https://rzp.io/l/Karma22LightMusic",
-    redirectLink: "/events/cultural/lightmusic",
+    redirectLink: "/events/cs/egaming",
   },
   {
     id: 5,
-    name: "facepainting",
+    name: "istart",
     para: 'Are you an artist!.. then 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 Is here with an opportunity to color your college life.  Join "AGHAIDH" 𝐅𝐚𝐜𝐞 𝐏𝐚𝐢𝐧𝐭𝐢𝐧𝐠.Throw different colors and make your snap different to win exciting prizes!',
     imgSrc: "/assets/cultural/facepainting.png",
-    heading: "STARTUP IDEAS",
+    heading: "i-Start (STARTUP IDEAS)",
     rule1: "1. A theme based face painting competition.",
     rule2: "2. Two members per team.",
     rule3: "3. It is an open event.",
@@ -143,9 +143,8 @@ const CulturalLists = [
     contact2: "Anaswara | 7025836141",
 
     paymentLink: "https://rzp.io/l/FacePainting",
-    redirectLink: "/events/cultural/facepainting",
+    redirectLink: "/events/cs/istart",
   },
-  
 ];
 
 export default CulturalLists;
