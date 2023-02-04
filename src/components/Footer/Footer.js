@@ -113,6 +113,20 @@ const Footer = () => {
               <FontAwesomeIcon className={classes.icons} icon={faFacebook} />
             </a>
           </div>
+          <div
+            className={classes.col}
+            style={{
+              display: "flex",
+              textAlign:"center",
+              alignItems:"center"
+            }}
+          >
+            <p>Live Views: </p>
+            <img
+              src="https://hits.serv.rs/live/t43ssmlktqfi5gejzdfyf?font=Futura"
+              height="30"
+            />
+          </div>
         </div>
       </div>
       <hr className={classes.hr} />
