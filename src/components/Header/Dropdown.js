@@ -10,7 +10,7 @@ const Dropdown = (props) => {
           onClick={props.click}
           className={classes.links}
         >
-          Culturals
+          Computer Science
         </Link>
       </li>
       <li className={classes.drops}>
