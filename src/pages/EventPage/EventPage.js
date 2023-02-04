@@ -17,7 +17,7 @@ const EventPage = () => {
                     : `${classes.links}`
                 }
               >
-                Cultural
+                Computer Science
               </NavLink>
             </div>
             <div className={`${classes.tabHead}`}>
@@ -29,7 +29,7 @@ const EventPage = () => {
                     : `${classes.links}`
                 }
               >
-                Workshops
+                E&TC
               </NavLink>
             </div>
             <div className={`${classes.tabHead}`}>
@@ -41,7 +41,7 @@ const EventPage = () => {
                     : `${classes.links}`
                 }
               >
-                Games
+                Mechanical
               </NavLink>
             </div>
             <div className={`${classes.tabHead}`}>
@@ -53,7 +53,7 @@ const EventPage = () => {
                     : `${classes.links}`
                 }
               >
-                Hackathon
+                Civil
               </NavLink>
             </div>
             <div className={`${classes.tabHead}`}>
@@ -65,7 +65,19 @@ const EventPage = () => {
                     : `${classes.links}`
                 }
               >
-                Expert Talk
+                MCA
+              </NavLink>
+            </div>
+            <div className={`${classes.tabHead}`}>
+              <NavLink
+                to="mba"
+                className={({ isActive }) =>
+                  isActive
+                    ? `${classes.active} ${classes.links}`
+                    : `${classes.links}`
+                }
+              >
+                MBA
               </NavLink>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Dropdown = (props) => {
           onClick={props.click}
           className={classes.links}
         >
-          Workshops
+          E&TC
         </Link>
       </li>
       <li className={classes.drops}>
@@ -28,7 +28,7 @@ const Dropdown = (props) => {
           onClick={props.click}
           className={classes.links}
         >
-          Games
+          Mechanical
         </Link>
       </li>
       <li className={classes.drops}>
@@ -37,12 +37,17 @@ const Dropdown = (props) => {
           onClick={props.click}
           className={classes.links}
         >
-          Hackathon
+          Civil
         </Link>
       </li>
       <li className={classes.drops}>
         <Link to="/events/talk" onClick={props.click} className={classes.links}>
-          Expert Talk
+          MCA
+        </Link>
+      </li>
+      <li className={classes.drops}>
+        <Link to="/events/mba" onClick={props.click} className={classes.links}>
+          MBA
         </Link>
       </li>
     </ul>

@@ -3,7 +3,7 @@ const hackathonLists = [
     name: "design",
     id: 1,
     imgSrc: "/assets/Hackathon/Design.webp",
-    heading: "FIGMA - Hackathon",
+    heading: "Memory Event",
     para1:
       "A hackathon is designed to bring together a group of fresh minds to go deep into a problem, research the technology or challenge, and develop potential solutions. Mentorship is important, but teamwork and brainstorming efforts are also important.",
     para2:
@@ -30,7 +30,7 @@ const hackathonLists = [
     name: "web",
     id: 1,
     imgSrc: "/assets/Hackathon/Web.webp",
-    heading: "WEB - Hackathon",
+    heading: "Bridge Crafting",
     para1:
       "A hackathon is designed to bring together a group of fresh minds to go deep into a problem, research the technology or challenge, and develop potential solutions. Mentorship is important, but teamwork and brainstorming efforts are also important.",
     para2:
