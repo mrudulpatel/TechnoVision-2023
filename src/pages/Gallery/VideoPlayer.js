@@ -29,7 +29,7 @@ const VideoPlayer = () => {
           height={350}
           style={{ marginTop: "100px" }}
           src={sessionStorage.getItem("v")}
-          //   src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          title={window.location.pathname.split("/")[3]}
         ></iframe>
         <h2 className="videoHeading">
           {window.location.pathname.split("/")[3].toLocaleUpperCase()}

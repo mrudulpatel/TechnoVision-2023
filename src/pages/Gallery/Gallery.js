@@ -1,10 +1,13 @@
 import "./Gallery.css";
 import Background from "../../UI/Background";
-import React from "react";
+import React, { useEffect } from "react";
 import TeaserList from "./TeaserList";
 import TeaserCard from "./TeaserCard";
 
 const Gallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section className="gallerySection">
       <Background className="galleryBg">

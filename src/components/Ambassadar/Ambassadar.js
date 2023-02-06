@@ -9,7 +9,7 @@ const Ambassadar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section id="ambassador" className={classes.ambaSection}>
+    <section id="register" className={classes.ambaSection}>
       <Background className={classes.ambassadar}>
         <div className={classes.headingBox}>
           <h3 className={classes.heading}>TechnoVision Event Registration</h3>

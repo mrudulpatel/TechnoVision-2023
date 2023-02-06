@@ -39,7 +39,7 @@ const MyRoutes = () => {
             <Route path="mca" element={<Talk />} />
             <Route path="mba" element={<MBA />} />
           </Route>
-          <Route path="/events" element={<Navigate to="cs" />} />
+          <Route path="/events" element={<Navigate to="civil" />} />
           <Route path="/teasers" element={<Gallery />} />
           <Route path="/teasers/watch/:id" element={<VideoPlayer />} />
           <Route path="/events/cs/:id" element={<CulturalDetail />} />
