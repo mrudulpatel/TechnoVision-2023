@@ -125,6 +125,7 @@ const Footer = () => {
             <img
               src="https://hits.serv.rs/live/t43ssmlktqfi5gejzdfyf?font=Futura"
               height="30"
+              alt="live_views"
             />
           </div>
         </div>

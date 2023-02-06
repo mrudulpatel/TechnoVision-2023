@@ -1,17 +1,17 @@
 import React from "react";
-import YouTube from "react-youtube";
+// import YouTube from "react-youtube";
 import Background from "../../UI/Background";
-import classes from "./TeaserCard.module.css";
+// import classes from "./TeaserCard.module.css";
 
 const VideoPlayer = () => {
-  const opts = {
-    height: "340",
-    width: "640",
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
-    },
-  };
+  // const opts = {
+  //   height: "340",
+  //   width: "640",
+  //   playerVars: {
+  //     // https://developers.google.com/youtube/player_parameters
+  //     autoplay: 1,
+  //   },
+  // };
 
   return (
     <section
