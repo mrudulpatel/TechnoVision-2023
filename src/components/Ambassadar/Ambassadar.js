@@ -14,11 +14,14 @@ const Ambassadar = () => {
         <div className={classes.headingBox}>
           <h3 className={classes.heading}>TechnoVision Event Registration</h3>
           <p className={classes.para}>
-          Ready to take part in the biggest technological event of the year? Registering for TechnoVision is quick and easy. 
-          Simply visit this "Registration" section of our website, fill out the required details and select the events you would 
-          like to participate in. Hurry, as spots are limited and will be allotted on a first-come, first-serve basis.
-           Don't miss out on this incredible opportunity to showcase your talents and network with others who share your passion for technology.
-            Register now and join us at TechnoVision!
+            Ready to take part in the biggest technological event of the year?
+            Registering for TechnoVision is quick and easy. Simply visit this
+            "Registration" section of our website, fill out the required details
+            and select the events you would like to participate in. Hurry, as
+            spots are limited and will be allotted on a first-come, first-serve
+            basis. Don't miss out on this incredible opportunity to showcase
+            your talents and network with others who share your passion for
+            technology. Register now and join us at TechnoVision!
           </p>
 
           <button className={classes.btn} onClick={() => setOpen(!open)}>

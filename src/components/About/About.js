@@ -22,15 +22,15 @@ const About = () => {
             Technical Campus, and provides a great opportunity for connecting
             and with others who share a passion for technology and innovation.
             With events like "Bridge crafting" from the Civil department,
-            "I-start" from the Computer department, "Circuit
-            Mania" from the ENTC department, and "Box Cricket" from the
-            Mechanical department, TechnoVision offers a wide range of
-            opportunities for students to showcase their skills and talents. The
-            events section below provides a complete list of all the exciting events
-            that will be happening during TechnoVision, and with exciting prizes
-            to be won, you definitely don't want to miss out! So why wait? Come
-            and be a part of the TechnoVision experience and have an Amazing
-            time with everyone!
+            "I-start" from the Computer department, "Circuit Mania" from the
+            ENTC department, and "Box Cricket" from the Mechanical department,
+            TechnoVision offers a wide range of opportunities for students to
+            showcase their skills and talents. The events section below provides
+            a complete list of all the exciting events that will be happening
+            during TechnoVision, and with exciting prizes to be won, you
+            definitely don't want to miss out! So why wait? Come and be a part
+            of the TechnoVision experience and have an Amazing time with
+            everyone!
           </p>
         </div>
 

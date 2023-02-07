@@ -11,9 +11,12 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
+          <h1 className={classes.heading2}>JSPM NARHE TECHNICAL CAMPUS</h1>
+          <p className={classes.heading2}>Proudly Presents</p>
           <h1 className={classes.heading}>TechnoVision 2023</h1>
           <h4 className={classes.caption}>What goes around comes around</h4>
-          <p className={classes.date}>FEB 28-29, 2023</p>
+          <br />
+          <p className={classes.date}>FEB 28, 2023</p>
           <Countdown
             className={classes.heading1}
             date={new Date("2023-02-28")}

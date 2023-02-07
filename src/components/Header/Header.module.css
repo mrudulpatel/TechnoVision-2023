@@ -31,13 +31,14 @@
 
 .logobox {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 1rem;
     margin-right: auto;
 }
 
 .logo {
-    width: 25%;
+    align-self: center;
+    width: 10%;
 }
 
 .hamburger {
