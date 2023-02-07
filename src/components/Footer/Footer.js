@@ -15,10 +15,9 @@ const Footer = () => {
         <div className={classes.col}>
           <img className={classes.karma} src={Logo} alt="Karma logo" />
           <p className={classes.para}>
-            Annual national level techno managerial cultural extravaganza of the
-            KMCT College of Engineering. Karma enables brilliant minds to
-            compete, discuss ideas, educate others about new technical
-            breakthroughs, and be a part of the tech platform.
+          The TechnoVision event, held annually by the esteemed JSPM group of institutes, enables brilliant minds to develop 
+          in an interactive, dynamic, and enjoyable environment. It not only increases students' soft skills but also their technical knowledge. 
+          This event unites students together, providing them with a valuable opportunity to expand their skills and gain hands-on experience.
           </p>
         </div>
 
