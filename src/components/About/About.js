@@ -8,21 +8,29 @@ const About = () => {
           <h3 className={classes.heading}>About</h3>
           <h2 className={classes.heading1}>TechnoVision</h2>
           <p className={classes.para}>
-            Its the annual national-level techno­managerial ­cultural
-            extravaganza of the KMCT College of Engineering. Karma invites
-            innovative minds to compete with each other, share ideas and educate
-            people about new technological advancements and be a part of the
-            tech platform.
+            TechnoVision is an exciting and dynamic event hosted by{" "}
+            <b>JSPM NARHE TECHNICAL CAMPUS</b> on central level that showcases
+            the innovative spirit and technical skills of students from all
+            departments. With events ranging from computer programming
+            challenges to engineering design competitions, TechnoVision provides
+            a platform for students to showcase their abilities and push the
+            boundaries to their fullest.
           </p>
 
           <p className={classes.para}>
-            Spectacular talent stretches boundaries to inspire the participating
-            students and the rapt audience alike. A gigantic range of events
-            from advanced robotics challenges to entrepreneurship hunts
-            promising to zap up the cranial indices of participants. Skill,
-            genius and knowledge trading infused with a handful of fun, and a
-            titanic prize money sum of above half a million rupees to make Karma
-            one of the most unique tech­carnivals of the country.
+            This event is open to all students to all students of JSPM Narhe
+            Technical Campus, and provides a great opportunity for connecting
+            and with others who share a passion for technology and innovation.
+            With events like "Bridge crafting" from the Civil department,
+            "I-start" from the Computer department, "Circuit
+            Mania" from the ENTC department, and "Box Cricket" from the
+            Mechanical department, TechnoVision offers a wide range of
+            opportunities for students to showcase their skills and talents. The
+            events section below provides a complete list of all the exciting events
+            that will be happening during TechnoVision, and with exciting prizes
+            to be won, you definitely don't want to miss out! So why wait? Come
+            and be a part of the TechnoVision experience and have an Amazing
+            time with everyone!
           </p>
         </div>
 

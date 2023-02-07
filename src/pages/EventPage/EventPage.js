@@ -10,6 +10,18 @@ const EventPage = () => {
           <div className={classes.tabList}>
             <div className={`${classes.tabHead}`}>
               <NavLink
+                to="civil"
+                className={({ isActive }) =>
+                  isActive
+                    ? `${classes.active} ${classes.links}`
+                    : `${classes.links}`
+                }
+              >
+                Civil
+              </NavLink>
+            </div>
+            <div className={`${classes.tabHead}`}>
+              <NavLink
                 to="cs"
                 className={({ isActive }) =>
                   isActive
@@ -42,42 +54,6 @@ const EventPage = () => {
                 }
               >
                 Mechanical
-              </NavLink>
-            </div>
-            <div className={`${classes.tabHead}`}>
-              <NavLink
-                to="civil"
-                className={({ isActive }) =>
-                  isActive
-                    ? `${classes.active} ${classes.links}`
-                    : `${classes.links}`
-                }
-              >
-                Civil
-              </NavLink>
-            </div>
-            <div className={`${classes.tabHead}`}>
-              <NavLink
-                to="mca"
-                className={({ isActive }) =>
-                  isActive
-                    ? `${classes.active} ${classes.links}`
-                    : `${classes.links}`
-                }
-              >
-                MCA
-              </NavLink>
-            </div>
-            <div className={`${classes.tabHead}`}>
-              <NavLink
-                to="mba"
-                className={({ isActive }) =>
-                  isActive
-                    ? `${classes.active} ${classes.links}`
-                    : `${classes.links}`
-                }
-              >
-                MBA
               </NavLink>
             </div>
           </div>

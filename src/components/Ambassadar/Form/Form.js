@@ -38,11 +38,7 @@ const Form = (props) => {
 
   const civilEvents = ["Memory Event", "Bridge Crafting", "Bollywood Quiz"];
 
-  const mbaEvents = ["Coming Soon", "Coming Soon", "Coming Soon"];
-
-  const mcaEvents = ["Coming Soon", "Coming Soon", "Coming Soon"];
-
-  const mechEvents = ["Coming Soon", "Coming Soon", "Coming Soon"];
+  const mechEvents = ["Box Cricket", "Overdrive", "Catholic"];
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -144,12 +140,6 @@ const Form = (props) => {
                 <option value="E&TC" style={{ color: "black" }}>
                   E&TC Engineering
                 </option>
-                <option value="MBA" style={{ color: "black" }}>
-                  MBA
-                </option>
-                <option value="MCA" style={{ color: "black" }}>
-                  MCA
-                </option>
               </select>
               {/* YEAR */}
               <select
@@ -236,36 +226,6 @@ const Form = (props) => {
                   </>
                 ))}
               </div>
-              <div className={classes.input}>
-                <p>Events of MBA Department</p>
-                {mbaEvents.map((event, i) => (
-                  <>
-                    <input
-                      value={event}
-                      type="checkbox"
-                      name={event}
-                      id={i + 1}
-                    />
-                    <label htmlFor={i + 1}> {event}</label>
-                    <br />
-                  </>
-                ))}
-              </div>
-              <div className={classes.input}>
-                <p>Events of MCA Department</p>
-                {mcaEvents.map((event, i) => (
-                  <>
-                    <input
-                      value={event}
-                      type="checkbox"
-                      name={event}
-                      id={i + 1}
-                    />
-                    <label htmlFor={i + 1}> {event}</label>
-                    <br />
-                  </>
-                ))}
-              </div>
             </div>
             <button className={classes.btn1} onClick={() => setOpen(!open)}>
               Register
@@ -278,7 +238,10 @@ const Form = (props) => {
             <h3 className={classes.bkdHeading}>
               Thank You for Registering at TechnoVision!!
               <p className={classes.input}>Registration ID: {finalId}</p>
-              <p className={classes.input} style={{ color: "red", fontWeight:"bold" }}>
+              <p
+                className={classes.input}
+                style={{ color: "red", fontWeight: "bold" }}
+              >
                 Please take a screenshot of this id
               </p>
             </h3>

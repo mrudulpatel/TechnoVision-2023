@@ -28,7 +28,7 @@ const CulturalLists = [
   //   redirectLink: "/events/cultural/desafio",
   // },
   {
-    id: 2,
+    id: 1,
     name: "projectposterpresentation",
     para: "Are you ready to beat you boredom?and fly high in the world of imagination,then the opportunity is here,𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐋𝐀𝐏𝐈𝐙' 𝐏𝐞𝐧𝐜𝐢𝐥 𝐃𝐫𝐚𝐰𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 ,Let your minds step into world of imagination...let's be engaged for while lost in thoughts... Let your white papers be kissed by pencil..",
     imgSrc: "/assets/cultural/pencildrawing.png",
@@ -53,42 +53,8 @@ const CulturalLists = [
     paymentLink: "https://rzp.io/l/Pencil-Drawing",
     redirectLink: "/events/cs/projectposterpresentation",
   },
-  // {
-  //   id: 3,
-  //   name: "fashionshow",
-  //   para: "Are you a fashionista or a dressy, kicky, sassy person? If yes, then what are you waiting for? KARMA '22 is here with 'VOGUE FIESTA' Fashion show' ! Style is a way to say who you are without having to speak. Create your own visual style. Let it be unique for yourself and yet identifiable for others ! All fashion lovers do participate and make sure you have registered.",
-  //   imgSrc: "/assets/cultural/fashionshow.png",
-  //   heading: "Vogue Fiesta - Fashion Show",
-  //   rule1:
-  //     "1. Cross college teams will not be awarded any Karma points if they win.",
-  //   rule2: "2. A minimum of 6 and a maximum of 30 models per team are allowed.",
-  //   rule3: "3. One participant cannot be a part of two participating teams.",
-  //   rule4: "4. Time limit per team: 10 minutes empty to empty.",
-  //   rule5:
-  //     "5. An additional 1 minute, if required, will be provided for narration only.Exceeding the time limit will lead to team disqualification.",
-  //   rule6:
-  //     "6. Participating teams should upload a video of their past performance to a drive, and send the link along with the following information to karmakmct2022@gmail.com by 15th May 2022.",
-  //   rule7:
-  //     "7. College Name (and Team Name, if any) -Name and Contact Info of any 3 team members.",
-  //   rule8:
-  //     "8. List of Team members Shortlisted teams will be informed by mail.",
-  //   rule9:
-  //     "9. Background music should be sent by email to karmakmct2022@gmail.com as a new email named VF-BGM-[College Name]. Both the subject of the mail and the Background music should be named in this format.",
-  //   rule10:
-  //     "10. The deadline for the same shall be informed after confirmation of participation. Presenting banners, posters or other materials directly displaying the theme is prohibited.",
-
-  //   // criteria: ["Will update the rules and criteria on the website."],
-
-  //   regFee: " 200/- per person",
-
-  //   contact1: "Arun | 9947949603",
-  //   contact2: "Mufeeda | 7025917739",
-
-  //   paymentLink: "https://rzp.io/l/Fashion-Show",
-  //   redirectLink: "/events/cultural/fashionshow",
-  // },
   {
-    id: 4,
+    id: 2,
     name: "egaming",
     para: "Music is the universal language of mankind. Where words fail, music speaks. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with ' 𝐋𝐢𝐠𝐡𝐭 𝐌𝐮𝐬𝐢𝐜 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 '. Do participate and never miss a chance to show up your passion. Let your words speak through music !",
     imgSrc: "/assets/cultural/lightmusic.png",
@@ -99,14 +65,6 @@ const CulturalLists = [
     rule3:
       "3. Use of single instrument other than organ by the participant is permitted.",
     rule4: "4. Composition and overall impression",
-
-    // criteria: [
-    //   "1. Swaram",
-    //   "2. Ragam",
-    //   "3. Taalam",
-    //   "4. Composition and overall impression",
-    // ],
-
     regFee: " 50/- per person",
 
     contact1: "Maneesha | 9747778332",
@@ -116,7 +74,7 @@ const CulturalLists = [
     redirectLink: "/events/cs/egaming",
   },
   {
-    id: 5,
+    id: 3,
     name: "istart",
     para: 'Are you an artist!.. then 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 Is here with an opportunity to color your college life.  Join "AGHAIDH" 𝐅𝐚𝐜𝐞 𝐏𝐚𝐢𝐧𝐭𝐢𝐧𝐠.Throw different colors and make your snap different to win exciting prizes!',
     imgSrc: "/assets/cultural/facepainting.png",
@@ -127,15 +85,6 @@ const CulturalLists = [
     rule4: "4. Paints will be provided.",
     rule5: "5. Participants are required to bring their own brushes.",
     rule6: "6. Maximum time limit - 60 minutes.",
-
-    // criteria: [
-    //   "1. Creativity",
-    //   "2. Originality",
-    //   "3. Presentation of theme",
-    //   "4. Visual appeal",
-    //   "5. Resource utilization",
-    //   "6. Speed",
-    // ],
 
     regFee: " 200/- per person",
 

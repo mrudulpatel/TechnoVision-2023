@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Events from "./components/Events/Events";
 import Gallery from "./components/Gallery/Gallery";
 import Ambassadar from "./components/Ambassadar/Ambassadar";
-import Alumni from "./components/Alumni/Alumni";
+// import Alumni from "./components/Alumni/Alumni";
 import ContactUs from "./components/ContactUs/ContactUs";
 import ContactLeads from "./components/ContactLeads/ContactLeads";
 // import Overlay from "./components/Overlay/Overlay";
