@@ -8,7 +8,7 @@ const About = () => {
           <h3 className={classes.heading}>About</h3>
           <h2 className={classes.heading1}>TechnoVision</h2>
           <p className={classes.para}>
-          
+          This is Our Recent website 
           </p>
 
           <p className={classes.para}>
