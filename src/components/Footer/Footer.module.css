@@ -1,3 +1,14 @@
+.logo {
+    align-self: center;
+    width: 4%;
+}
+
+.copyrights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer {
     overflow: hidden;
     background: linear-gradient(to right, #00093c, #191919);
