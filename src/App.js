@@ -26,11 +26,11 @@ function App() {
       <Hero />
       <About />
       <Events />
+      <ContactLeads/>
       <Gallery />
       <Ambassadar />
       {/* <Alumni /> */}
       <ContactUs />
-      <ContactLeads/>
     </Fragment>
   );
 }

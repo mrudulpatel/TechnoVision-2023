@@ -7,6 +7,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import Logo from "./header_logo.png";
+import { Avatar } from "@mui/material";
+const Logo1 = require("./tm logo.png");
 
 const Footer = () => {
   return (
@@ -32,6 +34,7 @@ const Footer = () => {
           <p className={classes.contactNo}>Developers</p>
           <p className={classes.contactNo}>Mrudul Patel - 8698793479</p>
           <p className={classes.contactNo}>Atharva Kurumbhatte - 9422202294</p>
+          <p className={classes.contactNo}>Ashwin Kapile - 9370206138</p>
         </div>
 
         <div className={`${classes.col} ${classes.links}`}>
@@ -117,8 +120,8 @@ const Footer = () => {
             className={classes.col}
             style={{
               display: "flex",
-              textAlign:"center",
-              alignItems:"center"
+              textAlign: "center",
+              alignItems: "center",
             }}
           >
             <p>Live Views: </p>
@@ -131,9 +134,18 @@ const Footer = () => {
         </div>
       </div>
       <hr className={classes.hr} />
-      <p className={classes.copyright}>
-        TechnoVision '23 | Copyright &#169; All rights reserved.
-      </p>
+      <div className={classes.copyrights}>
+        <img alt="logo" src={Logo1} className={classes.logo} />
+        <p className={classes.copyright}>
+          <a
+            style={{ textDecoration: "none", color:"white" }}
+            href="https://techminds-jspm.netlify.app"
+          >
+            &nbsp;&nbsp;TechMinds {new Date().getFullYear()}
+          </a>{" "}
+          | Copyright &#169; All rights reserved.
+        </p>
+      </div>
     </footer>
   );
 };
