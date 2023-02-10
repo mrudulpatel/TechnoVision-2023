@@ -17,9 +17,12 @@ const Footer = () => {
         <div className={classes.col}>
           <img className={classes.karma} src={Logo} alt="Karma logo" />
           <p className={classes.para}>
-          The TechnoVision event, held annually by the esteemed JSPM group of Institutes, enables brilliant minds to develop 
-          in an interactive, dynamic, and enjoyable environment. It not only increases students' soft skills but also their technical knowledge. 
-          This event unites students together, providing them with a valuable opportunity to expand their skills and gain hands-on experience.
+            The TechnoVision event, held annually by the esteemed JSPM group of
+            Institutes, enables brilliant minds to develop in an interactive,
+            dynamic, and enjoyable environment. It not only increases students'
+            soft skills but also their technical knowledge. This event unites
+            students together, providing them with a valuable opportunity to
+            expand their skills and gain hands-on experience.
           </p>
         </div>
 
@@ -52,41 +55,6 @@ const Footer = () => {
             >
               <li>Contact us</li>
             </HashLink>
-
-            {/* <a
-              href="https://docs.google.com/document/d/1cJfjOhoEfW_JhiMF-tUJXNWwRKxSIN-KrIlJCnh0EZ4/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Privacy policy</li>
-            </a> */}
-
-            {/* <a
-              href="https://docs.google.com/document/d/1VOnAodNTeF8ShOCxxVb_AXnxLKg2jKZCUY0QxbQd4nE/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Terms and condition</li>
-            </a>
-
-            <a
-              href="https://docs.google.com/document/d/1K0En27BTf6KJB2eHZmnr7BAMDWK8T83--8HJOu-GkA0/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Refund & Cancellation Policy</li>
-            </a>
-            <a
-              href="https://docs.google.com/document/d/1DVGB-PePPd7XCNW4LAJ6qBShudKzBJtuaAaiC6Q1DWY/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Shipping Policy</li>
-            </a> */}
           </ul>
         </div>
 
@@ -137,7 +105,7 @@ const Footer = () => {
         <img alt="logo" src={Logo1} className={classes.logo} />
         <p className={classes.copyright}>
           <a
-            style={{ textDecoration: "none", color:"white" }}
+            style={{ textDecoration: "none", color: "white" }}
             href="https://techminds-jspm.netlify.app"
           >
             &nbsp;&nbsp;TechMinds {new Date().getFullYear()}
