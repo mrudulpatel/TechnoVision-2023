@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className={classes.heading}>TechnoVision 2023</h1>
           <h4 className={classes.caption}>What goes around comes around</h4>
           <br />
-          <p className={classes.date}>FEB 28, 2023</p>
+          <p className={classes.date}>FEB 28 - MAR 1, 2023</p>
           <Countdown
             className={classes.heading1}
             date={new Date("2023-02-28")}
