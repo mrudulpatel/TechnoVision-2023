@@ -9,10 +9,27 @@ const EventCard = (props) => {
       </div>
       <div className={classes.textBox}>
         <h3 className={classes.heading}>{props.heading}</h3>
-        <Link className={classes.btn} to={props.redirectLink}>
+        <Link
+          hidden={window.location.pathname === "/home" ? true : false}
+          className={classes.btn}
+          to={props.redirectLink}
+        >
           View More
         </Link>
       </div>
+      {window.location.pathname === "/home" ? (
+        <>
+          <br />
+          <h2>Faculty: {props.faculty}</h2>
+          <br />
+          <h2>Student Leads:</h2>
+          {props.students.map((student, i) => (
+            <h2>
+              {i + 1}. {student.name} - {student.mobile}
+            </h2>
+          ))}
+        </>
+      ) : null}
     </div>
   );
 };
