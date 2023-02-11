@@ -32,7 +32,7 @@ const Form = (props) => {
     setID("TV" + Math.floor(Math.random() * 100000));
   }, []);
 
-  const compEvents = ["Project Poster Presentation", "E-Gaming", "i-Start"];
+  const compEvents = ["Project Poster Presentation", "E-Gaming", "The Ventures Arena"];
 
   const entcEvents = ["Circuit Mania", "Game of Code", "Speed Heist"];
 

@@ -22,7 +22,7 @@ const About = () => {
             Technical Campus, and provides a great opportunity for connecting
             and with others who share a passion for technology and innovation.
             With events like "Bridge crafting" from the Civil department,
-            "I-start" from the Computer department, "Circuit Mania" from the
+            "The Ventures Arena" from the Computer department, "Circuit Mania" from the
             ENTC department, and "Box Cricket" from the Mechanical department,
             TechnoVision offers a wide range of opportunities for students to
             showcase their skills and talents. The events section below provides
