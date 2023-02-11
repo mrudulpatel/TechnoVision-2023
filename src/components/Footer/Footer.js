@@ -6,16 +6,15 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
-import Logo from "./header_logo.png";
-import { Avatar } from "@mui/material";
 const Logo1 = require("./tm logo.png");
+const Logo2 = require("./TV_LOGO-removebg-preview.png");
 
 const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.row}>
         <div className={classes.col}>
-          <img className={classes.karma} src={Logo} alt="Karma logo" />
+          <img className={classes.karma} src={Logo2} alt="Technovision logo" />
           <p className={classes.para}>
             The TechnoVision event, held annually by the esteemed JSPM group of
             Institutes, enables brilliant minds to develop in an interactive,
