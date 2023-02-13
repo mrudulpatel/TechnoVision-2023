@@ -6,15 +6,21 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
-const Logo1 = require("./tm logo.png");
-const Logo2 = require("./TV_LOGO-removebg-preview.png");
+// const Logo1 = require("./tm logo.png");
+// const Logo2 = require("./TV_LOGO-removebg-preview.png");
 
 const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.row}>
         <div className={classes.col}>
-          <img className={classes.karma} src={Logo2} alt="Technovision logo" />
+          <img
+            className={classes.karma}
+            src={
+              "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/TV_LOGO-removebg-preview.png?alt=media&token=e5be8a6e-8306-48ac-98ab-617b84741c3d"
+            }
+            alt="Technovision logo"
+          />
           <p className={classes.para}>
             The TechnoVision event, held annually by the esteemed JSPM group of
             Institutes, enables brilliant minds to develop in an interactive,
@@ -101,7 +107,13 @@ const Footer = () => {
       </div>
       <hr className={classes.hr} />
       <div className={classes.copyrights}>
-        <img alt="logo" src={Logo1} className={classes.logo} />
+        <img
+          alt="logo"
+          src={
+            "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/tm%20logo.png?alt=media&token=7cecd1b6-19c9-4583-8493-e2307a5208d1"
+          }
+          className={classes.logo}
+        />
         <p className={classes.copyright}>
           <a
             style={{ textDecoration: "none", color: "white" }}

@@ -45,7 +45,7 @@ const Header = () => {
               alt="/"
               className={classes.logo}
             />
-            <img src={Logo} alt="logo" className={classes.logo1} />
+            <img src={"https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/TV_LOGO-removebg-preview.png?alt=media&token=e5be8a6e-8306-48ac-98ab-617b84741c3d"} alt="logo" className={classes.logo1} />
           </div>
           {/* </Drop> */}
         </div>
