@@ -33,7 +33,7 @@ const GamesDetail = () => {
               })}
 
               <p className={classes.fees}>
-                Registration fees: ₹
+                Registration fees: 
                 <span className={classes.amount}>{games[0].regFee}</span>
               </p>
 

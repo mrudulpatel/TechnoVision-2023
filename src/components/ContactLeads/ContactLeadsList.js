@@ -17,7 +17,7 @@ export const leads = [
     id: 1,
     heading: "Civil",
     imgSrc:
-      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/civil.jpg?alt=media&token=f9252d90-5323-46f6-bdcf-06e05ff8458b",
     redirectLink: "",
     faculty: "TBD",
     students: [
@@ -31,7 +31,7 @@ export const leads = [
     id: 2,
     heading: "E&TC",
     imgSrc:
-      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/entc.jpg?alt=media&token=1136aacb-2160-4858-a559-d8de2f07b13f",
     redirectLink: "",
     faculty: "TBD",
     students: [
@@ -45,7 +45,7 @@ export const leads = [
     id: 3,
     heading: "Mechanical",
     imgSrc:
-      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/mech.jpg?alt=media&token=b6dee719-3914-4d0e-af89-3aa277b7899a",
     redirectLink: "",
     faculty: "TBD",
     students: [

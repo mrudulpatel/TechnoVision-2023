@@ -7,7 +7,13 @@ const EventCard = (props) => {
       <div className={classes.imgBox}>
         <img className={classes.img} src={props.imgSrc} alt="cultural event" />
       </div>
-      <div className={classes.textBox}>
+      <div
+        className={
+          window.location.pathname === "/home"
+            ? classes.textBox1
+            : classes.textBox
+        }
+      >
         <h3 className={classes.heading}>{props.heading}</h3>
         <Link
           hidden={window.location.pathname === "/home" ? true : false}

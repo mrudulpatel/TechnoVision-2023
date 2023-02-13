@@ -1,8 +1,7 @@
 import React from "react";
 import EventCard from "../EventCard/EventCard";
 import { leads } from "./ContactLeadsList";
-import classes from "../../pages/Cultural/Cultural.module.css";
-// import "./ContactLeads.css";
+import classes from "./ContactLeads.module.css";
 
 const ContactLeads = () => {
   return (
