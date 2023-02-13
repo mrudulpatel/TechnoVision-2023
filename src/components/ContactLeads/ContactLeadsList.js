@@ -3,7 +3,9 @@ export const leads = [
     id: 0,
     heading: "Computer",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/computer_poster.png?alt=media&token=8afe3c19-718c-412b-a8dd-29f1bad9d2ae",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/Technovision%20COMP%20POSTER%20(2).png?alt=media&token=90198567-2778-4806-a58a-377f0537e604",
+    // imgSrc:
+    //   "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/computer_poster.png?alt=media&token=8afe3c19-718c-412b-a8dd-29f1bad9d2ae",
     redirectLink: "",
     faculty: "TBD",
     students: [
