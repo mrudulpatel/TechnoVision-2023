@@ -7,7 +7,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
-import Logo from "./TV_LOGO-removebg-preview.png";
+// import Logo from "./TV_LOGO-removebg-preview.png";
 import { ExpandMore } from "@mui/icons-material";
 
 const Scroll = require("react-scroll");
