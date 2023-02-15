@@ -2,7 +2,8 @@ export const leads = [
   {
     id: 0,
     heading: "Computer",
-    imgSrc: "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/Technovision%20COMP%20POSTER%20(4).png?alt=media&token=e21172d5-27e5-4716-a467-9871f8aecd48",
+    imgSrc:
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/computer_poster.png?alt=media&token=21087adc-fc23-456d-ba1e-664beb4cefe1",
     redirectLink: "",
     faculty: "TBD",
     students: [
@@ -44,7 +45,7 @@ export const leads = [
     id: 3,
     heading: "Mechanical",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/mech.jpg?alt=media&token=b6dee719-3914-4d0e-af89-3aa277b7899a",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/mech.jpg?alt=media&token=a76fd1bd-a786-4eb3-8b97-5224f96e6d72",
     redirectLink: "",
     faculty: "TBD",
     students: [

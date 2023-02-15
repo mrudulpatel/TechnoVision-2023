@@ -96,9 +96,10 @@ const Footer = () => {
               alignItems: "center",
             }}
           >
-            <p>Live Views: </p>
+            <p>Live Views: </p>{" "}
             <img
-              src="https://hits.serv.rs/live/t43ssmlktqfi5gejzdfyf?font=Futura"
+              style={{padding:"2px"}}
+              src="https://hits.serv.rs/static/t43ssmlktqfi5gejzdfyf"
               height="30"
               alt="live_views"
             />

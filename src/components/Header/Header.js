@@ -23,6 +23,8 @@ const Header = () => {
     return () => (window.onscroll = null);
   };
 
+  console.log(window.location.pathname);
+
   return (
     <header
       className={`${!scrolled ? classes.header : classes.scrolledHeader}`}
@@ -45,7 +47,13 @@ const Header = () => {
               alt="/"
               className={classes.logo}
             />
-            <img src={"https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/TV_LOGO-removebg-preview.png?alt=media&token=e5be8a6e-8306-48ac-98ab-617b84741c3d"} alt="logo" className={classes.logo1} />
+            <img
+              src={
+                "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/TV_LOGO-removebg-preview.png?alt=media&token=e5be8a6e-8306-48ac-98ab-617b84741c3d"
+              }
+              alt="logo"
+              className={classes.logo1}
+            />
           </div>
           {/* </Drop> */}
         </div>
@@ -67,7 +75,10 @@ const Header = () => {
                 </HashLink>
               </Drop>
             </li>
-            <li className={classes.navLink}>
+            <li
+              hidden={window.location.pathname !== "/home" ? true : false}
+              className={classes.navLink}
+            >
               <Drop
                 activeClass={classes.active}
                 to="about"
@@ -97,7 +108,10 @@ const Header = () => {
                 fade
               />
             </li>
-            <li className={classes.navLink}>
+            <li
+              hidden={window.location.pathname !== "/home" ? true : false}
+              className={classes.navLink}
+            >
               <Drop
                 activeClass={classes.active}
                 to="ambassador"
@@ -112,7 +126,10 @@ const Header = () => {
                 </HashLink>
               </Drop>
             </li>
-            <li className={classes.navLink}>
+            <li
+              hidden={window.location.pathname !== "/home" ? true : false}
+              className={classes.navLink}
+            >
               <Drop
                 activeClass={classes.active}
                 to="contact"

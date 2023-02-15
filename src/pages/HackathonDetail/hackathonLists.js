@@ -2,7 +2,7 @@ const hackathonLists = [
   {
     name: "memoryevent",
     id: 1,
-    imgSrc: "/assets/Hackathon/Design.webp",
+    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Memory Event",
     para1:
       "A hackathon is designed to bring together a group of fresh minds to go deep into a problem, research the technology or challenge, and develop potential solutions. Mentorship is important, but teamwork and brainstorming efforts are also important.",
@@ -29,7 +29,7 @@ const hackathonLists = [
   {
     name: "bridgecrafting",
     id: 1,
-    imgSrc: "/assets/Hackathon/Web.webp",
+    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Bridge Crafting",
     para1:
       "A hackathon is designed to bring together a group of fresh minds to go deep into a problem, research the technology or challenge, and develop potential solutions. Mentorship is important, but teamwork and brainstorming efforts are also important.",
@@ -56,7 +56,7 @@ const hackathonLists = [
   {
     name: "bollywoodquiz",
     id: 1,
-    imgSrc: "/assets/Hackathon/Web.webp",
+    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Bollywood Quiz",
     para1:
       "A hackathon is designed to bring together a group of fresh minds to go deep into a problem, research the technology or challenge, and develop potential solutions. Mentorship is important, but teamwork and brainstorming efforts are also important.",

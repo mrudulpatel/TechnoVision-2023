@@ -19,9 +19,9 @@ const TechnicalLists = [
   //   redirectLink: "/events/technical/aiml",
   // },
   {
-    id: 2,
+    id: 1,
     name: "circuitmania",
-    imgSrc: "/assets/Workshops/ansys.png",
+    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Circuit Mania",
     headingPara:
       "ANSYS is a general-purpose, finite-element modeling package for numerically solving a wide variety of mechanical problems. These problems include static/dynamic, structural analysis, heat transfer, and fluid problems, as well as acoustic and electromagnetic problems. There are two methods to use ANSYS.",
@@ -45,9 +45,9 @@ const TechnicalLists = [
     redirectLink: "/events/entc/circuitmania",
   },
   {
-    id: 3,
+    id: 2,
     name: "gameofcode",
-    imgSrc: "/assets/Workshops/arduino.png",
+    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Game of Code",
     headingPara:
       "Arduino is an Open-source electronic prototyping platform enabling users to create interactive electronic objects. A step by step introduction to the Arduino, electronic circuits and programming. If this is your first experience with Arduino, the UNO is the most robust board you can start playing with. The UNO is the most used and documented board of the whole Arduino & Genuino family.",
@@ -66,9 +66,9 @@ const TechnicalLists = [
     redirectLink: "/events/entc/gameofcode",
   },
   {
-    id: 4,
+    id: 3,
     name: "speedheist",
-    imgSrc: "/assets/Workshops/boq.png",
+    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Speed Heist",
     headingPara:
       "A bill of quantities is a document used in tendering in the construction industry in which materials, parts, and labour (and their costs) are itemized.They are still used extensively in building contracts, whereas civil engineering contracts tender to favor target price contracts of one form or another is a list of items taken from a standard method of measurement. ",

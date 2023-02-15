@@ -39,7 +39,7 @@ const GamesLists = [
     id: 3,
     name: "cadholic",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/cadholic.jpg?alt=media&token=868d227a-04cb-4498-a674-89a5d62a62a3",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/cadholic.jpg?alt=media&token=eeef4323-ba79-48dc-aeaf-3725e2ce653c",
     heading: "CADHOLIC",
     para: "",
     rules: [

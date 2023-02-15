@@ -32,13 +32,17 @@ const Form = (props) => {
     setID("TV" + Math.floor(Math.random() * 100000));
   }, []);
 
-  const compEvents = ["Project Poster Presentation", "E-Gaming", "The Ventures Arena"];
+  const compEvents = [
+    "PosterNexus (Project Poster Presentation)",
+    "Battle In Style (E-Gaming)",
+    "The Venture's Arena (i-Start)",
+  ];
 
   const entcEvents = ["Circuit Mania", "Game of Code", "Speed Heist"];
 
   const civilEvents = ["Memory Event", "Bridge Crafting", "Bollywood Quiz"];
 
-  const mechEvents = ["Box Cricket", "Overdrive", "Catholic"];
+  const mechEvents = ["Box Cricket", "Overdrive", "Cadholic"];
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -118,7 +122,14 @@ const Form = (props) => {
                 required
               />
               {/* DEPARTMENTS */}
-              <select
+              <input
+                type="text"
+                name="departments"
+                placeholder="Enter your Department"
+                onChange={(e) => setDept(e.target.value)}
+                className={classes.input}
+              />
+              {/* <select
                 name="events"
                 onChange={(e) => setDept(e.target.value)}
                 id="events"
@@ -140,9 +151,17 @@ const Form = (props) => {
                 <option value="E&TC" style={{ color: "black" }}>
                   E&TC Engineering
                 </option>
-              </select>
+              </select> */}
               {/* YEAR */}
-              <select
+              <input
+                type="text"
+                onChange={(e) => setYear(e.target.value)}
+                className={classes.input}
+                id="year"
+                name="year"
+                placeholder="Enter your Year"
+              />
+              {/* <select
                 name="year"
                 onChange={(e) => setYear(e.target.value)}
                 className={classes.input}
@@ -163,7 +182,7 @@ const Form = (props) => {
                 <option value="BE" style={{ color: "black" }}>
                   B.E.
                 </option>
-              </select>
+              </select> */}
               <div></div>
               {/* EVENTS */}
               <div className={classes.input}>

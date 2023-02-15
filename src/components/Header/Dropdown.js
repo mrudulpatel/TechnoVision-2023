@@ -6,7 +6,7 @@ const Dropdown = (props) => {
     <ul className={classes.dropdown}>
       <li className={classes.drops}>
         <Link
-          to="/events/hackathon"
+          to="/events/civil"
           onClick={props.click}
           className={classes.links}
         >
@@ -15,7 +15,7 @@ const Dropdown = (props) => {
       </li>
       <li className={classes.drops}>
         <Link
-          to="/events/cultural"
+          to="/events/cs"
           onClick={props.click}
           className={classes.links}
         >
@@ -24,7 +24,7 @@ const Dropdown = (props) => {
       </li>
       <li className={classes.drops}>
         <Link
-          to="/events/technical"
+          to="/events/entc"
           onClick={props.click}
           className={classes.links}
         >
@@ -33,7 +33,7 @@ const Dropdown = (props) => {
       </li>
       <li className={classes.drops}>
         <Link
-          to="/events/games"
+          to="/events/mechanical"
           onClick={props.click}
           className={classes.links}
         >
