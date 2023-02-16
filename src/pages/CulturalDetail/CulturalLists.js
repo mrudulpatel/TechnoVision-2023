@@ -1,37 +1,10 @@
 const CulturalLists = [
-  // {
-  //   id: 1,
-  //   name: "desafio",
-  //   imgSrc: "/assets/cultural/desafio.png",
-  //   heading: "DESAFIO - Dance Competiton",
-  //   para: "Dancers don't need wings to fly. Waiting for such an Opportunity? Then here is the chance, KARMA '22 brings you the 'Desafio' dance competition !! Grab your chance now, dance from your heart and let your passion shine through !",
-  //   rule1: "1. No participants in group: min 4 and max 12 students.",
-  //   rule2: "2. Time limit : 7+1 minutes.",
-  //   rule3: "3. Theme : Folk dance/ Patriotic/ Religious/ Hindi.",
-  //   rule4: "4. Style : Any style of dance (depend on participant).",
-  //   rule5:
-  //     "5. Participants are required to bring their own music CDs and props.",
-  //   rule6:
-  //     "6. Confirm the song and provide the CD to the concerned faculty co-coordinator of the event.",
-  //   rule7: "7. There should be only one entry in front of each college.",
-  //   rule8:
-  //     "8. Judges can stop the dance in between if they feel it is irrelevant.",
-
-  //   // criteria: ["Will update the rules and criteria on the website."],
-
-  //   regFee: " 200/- per person",
-
-  //   contact1: "Arun | 9947949603",
-  //   contact2: "Answara | 9645098354",
-
-  //   paymentLink: "https://rzp.io/l/Desafio-Dance",
-  //   redirectLink: "/events/cultural/desafio",
-  // },
   {
     id: 1,
     name: "projectposterpresentation",
     para: "Are you ready to beat you boredom?and fly high in the world of imagination,then the opportunity is here,𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐋𝐀𝐏𝐈𝐙' 𝐏𝐞𝐧𝐜𝐢𝐥 𝐃𝐫𝐚𝐰𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 ,Let your minds step into world of imagination...let's be engaged for while lost in thoughts... Let your white papers be kissed by pencil..",
-    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+    imgSrc:
+      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "PROJECT POSTER PRESENTATION",
     rule1: "1. Entries must follow the competition theme.",
     rule2: "2. It is an open event, on the spot registrations are allowed.",
@@ -47,8 +20,8 @@ const CulturalLists = [
 
     regFee: " 50/- per person",
 
-    contact1: "Arjun KP | 8075551219",
-    contact2: "Kavyanjali | 7559031951",
+    contact1: "Nilima Bhadane | +91 9021212355",
+    contact2: "Disha Patil | +91 9405830531",
 
     paymentLink: "https://rzp.io/l/Pencil-Drawing",
     redirectLink: "/events/cs/projectposterpresentation",
@@ -56,19 +29,17 @@ const CulturalLists = [
   {
     id: 2,
     name: "egaming",
-    para: "Music is the universal language of mankind. Where words fail, music speaks. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with ' 𝐋𝐢𝐠𝐡𝐭 𝐌𝐮𝐬𝐢𝐜 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 '. Do participate and never miss a chance to show up your passion. Let your words speak through music !",
-    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+    // para: "Music is the universal language of mankind. Where words fail, music speaks. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with ' 𝐋𝐢𝐠𝐡𝐭 𝐌𝐮𝐬𝐢𝐜 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 '. Do participate and never miss a chance to show up your passion. Let your words speak through music !",
+    imgSrc:
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/Battle%20In%20Style.png?alt=media&token=5d58ad05-72b9-42d5-8507-986e53f16ed5",
     heading: "Battle In Style (E - GAMING)",
-    rule1:
-      "1. Participant should choose a meaningful song of about 5 minutes duration.",
-    rule2: "2. The song should not be devotional, choral or from Films.",
-    rule3:
-      "3. Use of single instrument other than organ by the participant is permitted.",
-    rule4: "4. Composition and overall impression",
-    regFee: " 50/- per person",
+    rule1: "1. Game should already be installed",
+    rule2: "2. All participants must have earphones/headphones",
+    rule3: "3. Minimum 2 players should be there in squad",
+    regFee: " 100/- per Squad",
 
-    contact1: "Maneesha | 9747778332",
-    contact2: "Joseph | 7034193478",
+    contact1: "Vaibhav Vyas | +91 87883 66073",
+    contact2: "Gaurav Pandit | +91 83086 50292",
 
     paymentLink: "https://rzp.io/l/Karma22LightMusic",
     redirectLink: "/events/cs/egaming",
@@ -76,20 +47,28 @@ const CulturalLists = [
   {
     id: 3,
     name: "istart",
-    para: 'Are you an artist!.. then 𝐊𝐀𝐑𝐌𝐀\'𝟐𝟐 Is here with an opportunity to color your college life.  Join "AGHAIDH" 𝐅𝐚𝐜𝐞 𝐏𝐚𝐢𝐧𝐭𝐢𝐧𝐠.Throw different colors and make your snap different to win exciting prizes!',
-    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+    para: `This event promises to be an electrifying experience, where creativity, innovation, and the drive to succeed come together in a
+    high-stakes competition. The participants will have only a few
+    minutes to make their case and persuade the investors to back their
+    ideas, which could range from groundbreaking technologies and
+    disruptive startups to game-changing products and services.`,
+    imgSrc:
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/venture'sarena.png?alt=media&token=1ff3caa2-c87c-4896-8a52-6ebc3cf7ddc5",
     heading: "The Venture's Arena (i-Start)",
-    rule1: "1. A theme based face painting competition.",
-    rule2: "2. Two members per team.",
-    rule3: "3. It is an open event.",
-    rule4: "4. Paints will be provided.",
-    rule5: "5. Participants are required to bring their own brushes.",
-    rule6: "6. Maximum time limit - 60 minutes.",
+    rule1: "1. Time Limit: 10 to 15 minutes",
+    rule2: "2. Preparation: Participants should have a proper business model",
+    rule3:
+      "3. Presentation: Participants should be clear about their vision and idea",
+    rule4: "4. The business idea should not hurt anyone's sentiments",
+    rule5: "PRIZE MONEY",
+    rule6: "1st Prize: ₹5000/-",
+    rule7: "2nd Prize: ₹3000/-",
+    rule8: "3rd Prize: ₹2000/-",
 
     regFee: " 200/- per person",
 
-    contact1: "Akash PG | 7034541463",
-    contact2: "Anaswara | 7025836141",
+    contact1: "Atharva Kurumbhatte | +91 9422202294",
+    contact2: "Mrudul Patel | +91 8698793479",
 
     paymentLink: "https://rzp.io/l/FacePainting",
     redirectLink: "/events/cs/istart",

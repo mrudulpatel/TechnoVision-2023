@@ -1,23 +1,4 @@
 const TechnicalLists = [
-  // {
-  //   id: 1,
-  //   name: "aiml",
-  //   imgSrc: "/assets/Workshops/aiml.png",
-  //   heading: "AI / ML Workshop",
-  //   headingPara: "By attending AI/ML Workshop you will get a introduction to the world of Artificial Intelligence and Machine Learning. This workshop will help you to understand the fundementals of AI and ML and also this includes some live projects of Machine Learning which you can experince. This session will explain the complete learning path. Every beginners can attend this workshop.",
-  //   certiPara:
-  //     "On successful completion of this 1-day Workshop, you will earn yourself a Certification in AI / ML.",
-  //   rules: [
-  //     "1. Explore the career opportunities in AI ML",
-  //     "2. Learn the fundamentals of AI",
-  //     "3. Learn the foundation and terminology of ML",
-  //     "4. Understand the current trends in AI",
-  //     "5. Gain insights with python.",
-  //   ],
-
-  //   paymentLink: "https://rzp.io/l/Karma-AI-ML",
-  //   redirectLink: "/events/technical/aiml",
-  // },
   {
     id: 1,
     name: "circuitmania",
