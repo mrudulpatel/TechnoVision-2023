@@ -23,7 +23,7 @@ const hackathonLists = [
     regFee: "50",
     contact1: "",
     contact2: "",
-    paymentLink: "https://rzp.io/l/Figma-Hackathon",
+    // paymentLink: "https://rzp.io/l/Figma-Hackathon",
     redirectLink: "/events/civil/memoryevent",
   },
   {
@@ -50,7 +50,7 @@ const hackathonLists = [
     regFee: "50",
     contact1: "",
     contact2: "",
-    paymentLink: "https://rzp.io/l/WEB-Hackathon",
+    // paymentLink: "https://rzp.io/l/WEB-Hackathon",
     redirectLink: "/events/civil/bridgecrafting",
   },
   {
@@ -77,7 +77,7 @@ const hackathonLists = [
     regFee: "50",
     contact1: "",
     contact2: "",
-    paymentLink: "https://rzp.io/l/WEB-Hackathon",
+    // paymentLink: "https://rzp.io/l/WEB-Hackathon",
     redirectLink: "/events/civil/bollywoodquiz",
   },
 ];

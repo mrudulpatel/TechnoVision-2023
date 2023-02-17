@@ -10,6 +10,7 @@ const Form = (props) => {
   const [passout, setPassout] = useState("");
   const [mail, setMail] = useState("");
   const [number, setNumber] = useState("");
+  const [amount, setAmount] = useState(parseInt(0));
 
   const nameHandler = (event) => {
     setfullName(event.target.value);
@@ -22,6 +23,9 @@ const Form = (props) => {
   };
   const numberHandler = (event) => {
     setNumber(event.target.value);
+  };
+  const amountHandler = (event) => {
+    setAmount(event.target.value);
   };
 
   const sheetSubmit = (event) => {
@@ -86,7 +90,7 @@ const Form = (props) => {
               onChange={numberHandler}
               value={number}
               required
-            />
+            />            
           </div>
 
           <button className={classes.btn1} onClick={() => setOpen(!open)}>

@@ -22,9 +22,6 @@ const Hero = () => {
             date={new Date("2023-03-01")}
           />
           <br />
-          <button className={classes.btn} onClick={() => setOpen(!open)}>
-            Register Now !
-          </button>
         </div>
       </div>
       {open && <Form open={open} onClick={() => setOpen(!open)} />}

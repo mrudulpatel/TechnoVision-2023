@@ -22,7 +22,7 @@ const TechnicalLists = [
       "11. Analysing results and generating final solutions.",
     ],
 
-    paymentLink: "https://rzp.io/l/Karma-Ansys",
+    // paymentLink: "https://rzp.io/l/Karma-Ansys",
     redirectLink: "/events/entc/circuitmania",
   },
   {
@@ -43,7 +43,7 @@ const TechnicalLists = [
       "6. Project development using Arduino.",
     ],
 
-    paymentLink: "https://rzp.io/l/Karma-Arduino",
+    // paymentLink: "https://rzp.io/l/Karma-Arduino",
     redirectLink: "/events/entc/gameofcode",
   },
   {
@@ -64,7 +64,7 @@ const TechnicalLists = [
       "6. Recognize the relationship between the application of the measurement formulae and the Units of measurement prescribed by the standard system of measuring builders’ work.",
     ],
 
-    paymentLink: "https://rzp.io/l/Karma-BOQ",
+    // paymentLink: "https://rzp.io/l/Karma-BOQ",
     redirectLink: "/events/entc/speedheist",
   },
   

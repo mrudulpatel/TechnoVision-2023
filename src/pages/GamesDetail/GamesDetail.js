@@ -2,12 +2,14 @@ import { useParams } from "react-router-dom";
 import classes from "./GamesDetail.module.css";
 import Background from "../../UI/Background";
 import GamesLists from "./GamesLists";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Form from "./Form/Form";
 
 const GamesDetail = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const [open, setOpen] = useState(false);
 
   const params = useParams();
   console.log(params.id);
@@ -33,7 +35,7 @@ const GamesDetail = () => {
               })}
 
               <p className={classes.fees}>
-                Registration fees: 
+                Registration fees:
                 <span className={classes.amount}>{games[0].regFee}</span>
               </p>
 
@@ -42,12 +44,15 @@ const GamesDetail = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className={classes.btn}>Register Now!</button>
+                <button className={classes.btn} onClick={() => setOpen(!open)}>
+                  Register Now!
+                </button>
               </a>
             </div>
           </div>
         </div>
       </Background>
+      {open && <Form open={open} onClick={() => setOpen(!open)} />}
     </section>
   );
 };

@@ -32,18 +32,6 @@ const Form = (props) => {
     setID("TV" + Math.floor(Math.random() * 100000));
   }, []);
 
-  const compEvents = [
-    "PosterNexus (Project Poster Presentation)",
-    "Battle In Style (E-Gaming)",
-    "The Venture's Arena (i-Start)",
-  ];
-
-  const entcEvents = ["Circuit Mania", "Game of Code", "Speed Heist"];
-
-  const civilEvents = ["Memory Event", "Bridge Crafting", "Bollywood Quiz"];
-
-  const mechEvents = ["Box Cricket", "Overdrive", "Cadholic"];
-
   const handleSubmit = (e) => {
     e.preventDefault();
     let arr = [];
@@ -129,29 +117,6 @@ const Form = (props) => {
                 onChange={(e) => setDept(e.target.value)}
                 className={classes.input}
               />
-              {/* <select
-                name="events"
-                onChange={(e) => setDept(e.target.value)}
-                id="events"
-                className={classes.input}
-                required
-              >
-                <option value="-1" style={{ color: "black" }}>
-                  Select your Department
-                </option>
-                <option value="Computer" style={{ color: "black" }}>
-                  Computer Engineering
-                </option>
-                <option value="Civil" style={{ color: "black" }}>
-                  Civil Engineering
-                </option>
-                <option value="Mechanical" style={{ color: "black" }}>
-                  Mechanical Engineering
-                </option>
-                <option value="E&TC" style={{ color: "black" }}>
-                  E&TC Engineering
-                </option>
-              </select> */}
               {/* YEAR */}
               <input
                 type="text"
@@ -161,91 +126,9 @@ const Form = (props) => {
                 name="year"
                 placeholder="Enter your Year"
               />
-              {/* <select
-                name="year"
-                onChange={(e) => setYear(e.target.value)}
-                className={classes.input}
-                id="year"
-              >
-                <option value="-1" style={{ color: "black" }}>
-                  Select Year
-                </option>
-                <option value="FE" style={{ color: "black" }}>
-                  F.E.
-                </option>
-                <option value="SE" style={{ color: "black" }}>
-                  S.E.
-                </option>
-                <option value="TE" style={{ color: "black" }}>
-                  T.E.
-                </option>
-                <option value="BE" style={{ color: "black" }}>
-                  B.E.
-                </option>
-              </select> */}
               <div></div>
-              {/* EVENTS */}
-              <div className={classes.input}>
-                <p>Events of Computer Department</p>
-                {compEvents.map((event, i) => (
-                  <>
-                    <input
-                      value={event}
-                      type="checkbox"
-                      name={event}
-                      id={i + 1}
-                    />
-                    <label htmlFor={i + 1}> {event}</label>
-                    <br />
-                  </>
-                ))}
-              </div>
-              <div className={classes.input}>
-                <p>Events of Civil Department</p>
-                {civilEvents.map((event, i) => (
-                  <>
-                    <input
-                      value={event}
-                      type="checkbox"
-                      name={event}
-                      id={i + 1}
-                    />
-                    <label htmlFor={i + 1}> {event}</label>
-                    <br />
-                  </>
-                ))}
-              </div>
-              <div className={classes.input}>
-                <p>Events of Mechanical Department</p>
-                {mechEvents.map((event, i) => (
-                  <>
-                    <input
-                      value={event}
-                      type="checkbox"
-                      name={event}
-                      id={i + 1}
-                    />
-                    <label htmlFor={i + 1}> {event}</label>
-                    <br />
-                  </>
-                ))}
-              </div>
-              <div className={classes.input}>
-                <p>Events of E&TC Department</p>
-                {entcEvents.map((event, i) => (
-                  <>
-                    <input
-                      value={event}
-                      type="checkbox"
-                      name={event}
-                      id={i + 1}
-                    />
-                    <label htmlFor={i + 1}> {event}</label>
-                    <br />
-                  </>
-                ))}
-              </div>
             </div>
+            {/* EVENTS */}
             <button className={classes.btn1} onClick={() => setOpen(!open)}>
               Register
             </button>

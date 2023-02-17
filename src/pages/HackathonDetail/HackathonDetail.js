@@ -2,14 +2,15 @@ import { useParams } from "react-router-dom";
 import classes from "./HackathonDetail.module.css";
 import Background from "../../UI/Background";
 import hackathonLists from "./hackathonLists";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Form from "./Form/Form";
 
 const HackathonDetail = () => {
-
+  const [open, setOpen] = useState(false);
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   const params = useParams();
   console.log(params.id);
 
@@ -31,27 +32,30 @@ const HackathonDetail = () => {
           </div>
 
           <div className={classes.ScrollBox}>
-              <div className={classes.headingBox}>
-                <h3 className={classes.heading}>{hackathon[0].heading}</h3>
-                <p className={classes.para}>{hackathon[0].para1}</p>
-                <p className={classes.para}>{hackathon[0].para2}</p>
-                <p className={classes.para}>{hackathon[0].para3}</p>
-                <p className={classes.para}>{hackathon[0].para4}</p>
-                <p className={classes.para}>{hackathon[0].para5}</p>
-                <p className={classes.para}>{hackathon[0].certiPara}</p>
-                <h3 className={classes.heading}>Rules</h3>
+            <div className={classes.headingBox}>
+              <h3 className={classes.heading}>{hackathon[0].heading}</h3>
+              <p className={classes.para}>{hackathon[0].para1}</p>
+              <p className={classes.para}>{hackathon[0].para2}</p>
+              <p className={classes.para}>{hackathon[0].para3}</p>
+              <p className={classes.para}>{hackathon[0].para4}</p>
+              <p className={classes.para}>{hackathon[0].para5}</p>
+              <p className={classes.para}>{hackathon[0].certiPara}</p>
+              <h3 className={classes.heading}>Rules</h3>
 
-                {hackathon[0].rules.map((map) => {
-                  return <p className={classes.para}>{map}</p>;
-                })}
+              {hackathon[0].rules.map((map) => {
+                return <p className={classes.para}>{map}</p>;
+              })}
 
-                <a href={hackathon[0].paymentLink}>
-                  <button className={classes.btn}>Register Now !</button>
-                </a>
-              </div>
+              <a href={hackathon[0].paymentLink}>
+                <button onClick={() => setOpen(!open)} className={classes.btn}>
+                  Register Now !
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </Background>
+      {open && <Form open={open} onClick={() => setOpen(!open)} />}
     </section>
   );
 };

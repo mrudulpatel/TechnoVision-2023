@@ -16,7 +16,7 @@ const GamesLists = [
       "7. Teams are responsible for their own technical issues (hardware/internet).",
     ],
     regFee: "₹200/-",
-    paymentLink: "https://rzp.io/l/Karma-PUBG",
+    // paymentLink: "https://rzp.io/l/Karma-PUBG",
     redirectLink: "/events/mechanical/overdrive",
   },
   {
@@ -32,7 +32,7 @@ const GamesLists = [
       "3. No malpractices are allowed. ",
     ],
     regFee: "₹350/-",
-    paymentLink: "https://rzp.io/l/Karma-Ludo",
+    // paymentLink: "https://rzp.io/l/Karma-Ludo",
     redirectLink: "/events/mechanical/boxcricket",
   },
   {
@@ -50,7 +50,7 @@ const GamesLists = [
       "5. Faking or manipulating match media are forbidden.",
     ],
     regFee: "₹100/-",
-    paymentLink: "https://rzp.io/l/Karma-PES",
+    // paymentLink: "https://rzp.io/l/Karma-PES",
     redirectLink: "/events/mechanical/cadholic",
   },
 ];

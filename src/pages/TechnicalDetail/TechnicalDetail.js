@@ -2,14 +2,15 @@ import { useParams } from "react-router-dom";
 import classes from "./TechnicalDetail.module.css";
 import Background from "../../UI/Background";
 import TechnicalLists from "./TechnicalLists";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Form from "./Form/Form";
 
 const TechnicalDetail = () => {
-
+  const [open, setOpen] = useState(false);
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   const params = useParams();
   console.log(params.id);
 
@@ -43,12 +44,15 @@ const TechnicalDetail = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className={classes.btn}>Register Now !</button>
+                <button onClick={() => setOpen(!open)} className={classes.btn}>
+                  Register Now !
+                </button>
               </a>
             </div>
           </div>
         </div>
       </Background>
+      {open && <Form open={open} onClick={() => setOpen(!open)} />}
     </section>
   );
 };

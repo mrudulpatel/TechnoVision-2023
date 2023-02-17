@@ -38,7 +38,7 @@ const MyRoutes = () => {
               <Route exact path="civil" element={<Hackathon />} />
               <Route exact path="mechanical" element={<Games />} />
             </Route>
-            <Route path="/events" element={<Navigate to="civil" />} />
+            <Route path="/events" element={<Navigate to="cs" />} />
             <Route path="/teasers" element={<Gallery />} />
             <Route path="/teasers/watch/:id" element={<VideoPlayer />} />
             <Route path="/events/cs/:id" element={<CulturalDetail />} />

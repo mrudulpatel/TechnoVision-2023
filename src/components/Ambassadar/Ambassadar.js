@@ -4,8 +4,10 @@ import Form from "./Form/Form";
 
 import { useState } from "react";
 import Background from "../../UI/Background";
+import { useNavigate } from "react-router-dom";
 
 const Ambassadar = () => {
+  const navigation = useNavigate();
   const [open, setOpen] = useState(false);
 
   return (
@@ -21,7 +23,7 @@ const Ambassadar = () => {
             Register now and join us at TechnoVision !!!
           </p>
 
-          <button className={classes.btn} onClick={() => setOpen(!open)}>
+          <button className={classes.btn} onClick={() => navigation("/events/cs")}>
             Register Now !
           </button>
         </div>

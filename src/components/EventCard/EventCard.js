@@ -5,7 +5,11 @@ const EventCard = (props) => {
   return (
     <div className={classes.card}>
       <div className={classes.imgBox}>
-        <img className={classes.img} src={props.imgSrc} alt="poster coming soon" />
+        <img
+          className={classes.img}
+          src={props.imgSrc}
+          alt="poster coming soon"
+        />
       </div>
       <div
         className={
@@ -19,6 +23,9 @@ const EventCard = (props) => {
           hidden={window.location.pathname === "/home" ? true : false}
           className={classes.btn}
           to={props.redirectLink}
+          onClick={() => {
+            sessionStorage.setItem("eventName", props.heading);
+          }}
         >
           View More
         </Link>

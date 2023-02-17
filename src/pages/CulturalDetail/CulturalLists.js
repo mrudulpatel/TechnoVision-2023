@@ -18,12 +18,12 @@ const CulturalLists = [
 
     // criteria: ["Will update the rules and criteria on the website."],
 
-    regFee: " 50/- per person",
+    regFee: " 100/- per person",
 
     contact1: "Nilima Bhadane | +91 9021212355",
     contact2: "Disha Patil | +91 9405830531",
 
-    paymentLink: "https://rzp.io/l/Pencil-Drawing",
+    paymentLink: "",
     redirectLink: "/events/cs/projectposterpresentation",
   },
   {
