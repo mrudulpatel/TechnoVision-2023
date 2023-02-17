@@ -57,16 +57,16 @@ const Form = (props) => {
   useEffect(() => {
     const colRef = collection(db, `${sessionStorage.getItem("eventName")}`);
     onSnapshot(colRef, (snap) => {
-      setReceiptId(snap.docs.length+1);
-      console.log(snap.docs.length+1);
+      setReceiptId(snap.docs.length + 1);
+      console.log(snap.docs.length + 1);
     });
   }, [db]);
 
   useEffect(() => {
     const colRef = collection(db, `${sessionStorage.getItem("eventName")}`);
     onSnapshot(colRef, (snap) => {
-      setReceiptId(snap.docs.length+1);
-      console.log(snap.docs.length+1);
+      setReceiptId(snap.docs.length + 1);
+      console.log(snap.docs.length + 1);
     });
   }, [db]);
 
@@ -156,14 +156,34 @@ const Form = (props) => {
                 name="year"
                 placeholder="Enter your Year"
               />
-              <input
-                placeholder="Enter Payment Amount"
-                type="file"
-                accept="image/*"
-                className={classes.input}
-                onChange={handleImage}
-                required
-              />
+              <div>
+                <label className={classes.input} htmlFor="file">
+                  Upload Receipt Screenshot
+                </label>
+                <input
+                  placeholder="Upload Photo of Receipt"
+                  type="file"
+                  id={"file"}
+                  accept="image/*"
+                  className={classes.input}
+                  onChange={handleImage}
+                  required
+                />
+              </div>
+            </div>
+            <div className={classes.input}>
+              Instructions <br />
+              1.) It is mandatory to fill out all details <br />
+              2.) After clicking on the "click to pay" button, a QR code will be
+              downloaded, and you must pay using that QR code only <br />
+              3.) Upload a screenshot of your payment once it has been completed{" "}
+              <br />
+              <b>
+                <u>
+                  4.) Most Important, Do not forget to download the pdf of your
+                  acknowledgment after registering
+                </u>
+              </b>
             </div>
             <a
               download={true}
