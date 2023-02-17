@@ -33,10 +33,7 @@ const Footer = () => {
 
         <div className={classes.col}>
           <h3>Contact us</h3>
-          <p>JSPM Narhe Technical Campus</p>
-          <p>Survey No. 12/2/2 & 14/9, Pune Bangalore Highway, </p>
-          <p>Taluka Haveli, Narhe, </p>
-          <p> Pune, Maharashtra 411041</p>
+          
           <p className={classes.email}>jspmtechminds2022@gmail.com</p>
           <p className={classes.contactNo}>Developers</p>
           <p className={classes.contactNo}>Mrudul Patel - 8698793479</p>
