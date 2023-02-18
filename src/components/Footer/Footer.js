@@ -38,6 +38,7 @@ const Footer = () => {
           <p className={classes.contactNo}><u>Developers</u></p>
           <p className={classes.contactNo}>Mrudul Patel - 8698793479</p>
           <p className={classes.contactNo}>Atharva Kurumbhatte - 9422202294</p>
+          <p className={classes.contactNo}>Mukund Chamriya - 7447657204</p>
           <p className={classes.contactNo}>Ashwin Kapile - 9370206138</p>
         </div>
 

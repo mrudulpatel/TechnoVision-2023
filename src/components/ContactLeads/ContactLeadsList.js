@@ -5,7 +5,7 @@ export const leads = [
     imgSrc:
       "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/computer_poster.png?alt=media&token=d8e6e8ec-5f52-40b3-9f83-d6c279a0277f",
     redirectLink: "",
-    faculty: "TBD",
+    faculty: "Ms. Meera Sawalkar",
     students: [
       {
         name: "Vishal Sapkal",
@@ -31,9 +31,9 @@ export const leads = [
     id: 2,
     heading: "E&TC",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/entc.jpg?alt=media&token=1136aacb-2160-4858-a559-d8de2f07b13f",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/entc.jpg?alt=media&token=dc1d7cc9-aed7-4ee5-a13d-a1eeb7938a7e",
     redirectLink: "",
-    faculty: "TBD",
+    faculty: "Ms. Supriya Kurlekar",
     students: [
       {
         name: "Sujay Patange",
@@ -47,7 +47,7 @@ export const leads = [
     imgSrc:
       "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/mech.jpg?alt=media&token=a76fd1bd-a786-4eb3-8b97-5224f96e6d72",
     redirectLink: "",
-    faculty: "TBD",
+    faculty: "Ms. Aboli Halwe",
     students: [
       {
         name: "Utkarsha Konarde",

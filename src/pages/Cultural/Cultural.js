@@ -16,6 +16,7 @@ const Cultural = () => {
             imgSrc={list.imgSrc}
             heading={list.heading}
             redirectLink={list.redirectLink}
+            amount={list.amount}
           />
         );
       })}

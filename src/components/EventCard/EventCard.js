@@ -25,6 +25,7 @@ const EventCard = (props) => {
           to={props.redirectLink}
           onClick={() => {
             sessionStorage.setItem("eventName", props.heading);
+            sessionStorage.setItem("amount", props.amount);
           }}
         >
           View More

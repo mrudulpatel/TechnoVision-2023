@@ -18,10 +18,10 @@ const Header = () => {
   const [mobile, setMobile] = useState(false);
   const [drop, setDrop] = useState(false);
 
-  window.onscroll = () => {
-    isScrolled(window.pageYOffset === 0 ? false : true);
-    return () => (window.onscroll = null);
-  };
+  // window.onscroll = () => {
+  //   isScrolled(window.pageYOffset === 0 ? false : true);
+  //   return () => (window.onscroll = null);
+  // };
 
   console.log(window.location.pathname);
 
@@ -182,12 +182,12 @@ const Header = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="#home">
+                <HashLink className={classes.homeLink} to="/#home">
                   Home
                 </HashLink>
               </Drop>
             </li>
-            <li>
+            <li hidden={window.location.pathname !== "/home" ? true : false}>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
@@ -226,7 +226,7 @@ const Header = () => {
                 fade
               />
             </li>
-            <li>
+            <li hidden={window.location.pathname !== "/home" ? true : false}>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
@@ -242,7 +242,7 @@ const Header = () => {
                 </HashLink>
               </Drop>
             </li>
-            <li>
+            <li hidden={window.location.pathname !== "/home" ? true : false}>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
