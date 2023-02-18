@@ -53,24 +53,9 @@ const Form = (props) => {
   };
 
   useEffect(() => {
-    setID("TV" + Math.floor(Math.random() * 100000));
+    setID("TechVi" + Math.floor(Math.random() * 100000));
+    setReceiptId(Math.floor(Math.random() * 100000));
   }, []);
-
-  useEffect(() => {
-    const colRef = collection(db, `${sessionStorage.getItem("eventName")}`);
-    onSnapshot(colRef, (snap) => {
-      setReceiptId(snap.docs.length + 1);
-      console.log(snap.docs.length + 1);
-    });
-  }, [db]);
-
-  useEffect(() => {
-    const colRef = collection(db, `${sessionStorage.getItem("eventName")}`);
-    onSnapshot(colRef, (snap) => {
-      setReceiptId(snap.docs.length + 1);
-      console.log(snap.docs.length + 1);
-    });
-  }, [db]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -201,12 +186,6 @@ const Form = (props) => {
               downloaded, and you must pay using that QR code only <br />
               3.) Upload a screenshot of your payment once it has been completed{" "}
               <br />
-              <b>
-                <u>
-                  4.) Most Important, Do not forget to download the pdf of your
-                  acknowledgment after registering
-                </u>
-              </b>
             </div>
             <a
               download={true}
@@ -217,7 +196,7 @@ const Form = (props) => {
               role="button"
               className={classes.btn1}
             >
-              Click to Pay
+              Download Payment QR Code
             </a>
             <button className={classes.btn1} onClick={() => setOpen(!open)}>
               Register
@@ -230,12 +209,7 @@ const Form = (props) => {
             <h3 className={classes.bkdHeading}>
               Thank You for Registering at TechnoVision!!
               <p className={classes.input}>Registration ID: {finalId}</p>
-              <p
-                className={classes.input}
-                style={{ color: "red", fontWeight: "bold" }}
-              >
-                Please take a screenshot of this id
-              </p>
+              <p className={classes.input}>Receipt ID: {receiptId}</p>
             </h3>
             <div onClick={props.onClick} className={classes.close}>
               <FontAwesomeIcon icon={faXmark} size="3x" />
