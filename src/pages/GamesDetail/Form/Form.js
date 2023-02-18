@@ -4,7 +4,7 @@ import Backdrop from "@mui/material/Backdrop";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import db from "./firebase";
-import { collection, doc, onSnapshot, setDoc } from "firebase/firestore";
+import { doc, serverTimestamp, setDoc } from "firebase/firestore";
 import jsPDF from "jspdf";
 import ReceiptBook from "./receiptbook.png";
 
@@ -69,6 +69,7 @@ const Form = (props) => {
       year: year,
       image: image,
       receiptId: receiptId,
+      timestamp: serverTimestamp(),
     }).then(() => {
       generatePdf();
       // console.log("Saved");
