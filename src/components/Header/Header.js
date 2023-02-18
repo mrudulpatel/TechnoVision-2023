@@ -9,7 +9,7 @@ import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
 // import Logo from "./TV_LOGO-removebg-preview.png";
 import { ExpandMore } from "@mui/icons-material";
-
+import { useNavigate } from "react-router-dom";
 const Scroll = require("react-scroll");
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
   const [scrolled, isScrolled] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [drop, setDrop] = useState(false);
-
+  const navigator = useNavigate();
   // window.onscroll = () => {
   //   isScrolled(window.pageYOffset === 0 ? false : true);
   //   return () => (window.onscroll = null);
@@ -52,6 +52,7 @@ const Header = () => {
                 "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/TV_LOGO-removebg-preview.png?alt=media&token=e5be8a6e-8306-48ac-98ab-617b84741c3d"
               }
               alt="logo"
+              onClick={() => navigator("/home")}
               className={classes.logo1}
             />
           </div>

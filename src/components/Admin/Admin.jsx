@@ -1,6 +1,6 @@
 import React from "react";
 import "./Admin.css";
-import db from "../../pages/CulturalDetail/Form/firebase";
+// import db from "../../pages/CulturalDetail/Form/firebase";
 import Background from "../../UI/Background";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -9,6 +9,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import { Opacity, OpenInNew } from "@mui/icons-material";
 
 const Admin = () => {
   function createData(name, calories, fat, carbs, protein) {
@@ -26,15 +27,61 @@ const Admin = () => {
     <section className="gallerySection">
       <Background className="galleryBg"></Background>
       <div className="row">
-        <TableContainer sx={{maxWidth: 1000}} component={Paper}>
-          <Table sx={{ minWidth: 650, maxWidth: 1000 }} aria-label="simple table">
+        <TableContainer sx={{ maxWidth: 1500 }} component={Paper}>
+          <Table
+            sx={{ minWidth: 650, maxWidth: 1500 }}
+            aria-label="simple table"
+          >
             <TableHead>
               <TableRow>
-                <TableCell>Dessert (100g serving)</TableCell>
-                <TableCell align="center">Calories</TableCell>
-                <TableCell align="center">Fat&nbsp;(g)</TableCell>
-                <TableCell align="center">Carbs&nbsp;(g)</TableCell>
-                <TableCell align="center">Protein&nbsp;(g)</TableCell>
+                <TableCell
+                  sx={{ fontSize: "20px", fontWeight: "bold" }}
+                  align="center"
+                >
+                  Sr. No.
+                </TableCell>
+                <TableCell
+                  sx={{ fontSize: "20px", fontWeight: "bold" }}
+                  align="center"
+                >
+                  Reg. ID
+                </TableCell>
+                <TableCell
+                  sx={{ fontSize: "20px", fontWeight: "bold" }}
+                  align="center"
+                >
+                  Receipt ID
+                </TableCell>
+                <TableCell
+                  sx={{ fontSize: "20px", fontWeight: "bold" }}
+                  align="center"
+                >
+                  Name
+                </TableCell>
+                <TableCell
+                  sx={{ fontSize: "20px", fontWeight: "bold" }}
+                  align="center"
+                >
+                  Mobile Number
+                </TableCell>
+                <TableCell
+                  sx={{ fontSize: "20px", fontWeight: "bold" }}
+                  align="center"
+                >
+                  Department
+                </TableCell>
+                <TableCell
+                  sx={{ fontSize: "20px", fontWeight: "bold" }}
+                  align="center"
+                >
+                  Year
+                </TableCell>
+                <TableCell
+                  sx={{ fontSize: "20px", fontWeight: "bold" }}
+                  align="center"
+                >
+                  Photo
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -43,13 +90,38 @@ const Admin = () => {
                   key={row.name}
                   sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                 >
-                  <TableCell component="th" scope="row">
-                    {row.name}
+                  <TableCell
+                    align="center"
+                    sx={{ fontSize: "16px" }}
+                    component="th"
+                    scope="row"
+                  >
+                    1
                   </TableCell>
-                  <TableCell align="center">{row.calories}</TableCell>
-                  <TableCell align="center">{row.fat}</TableCell>
-                  <TableCell align="center">{row.carbs}</TableCell>
-                  <TableCell align="center">{row.protein}</TableCell>
+                  <TableCell sx={{ fontSize: "16px" }} align="center">
+                    TechVi12312
+                  </TableCell>
+                  <TableCell sx={{ fontSize: "16px" }} align="center">
+                    123123
+                  </TableCell>
+                  <TableCell sx={{ fontSize: "16px" }} align="center">
+                    Mrudul Patel
+                  </TableCell>
+                  <TableCell sx={{ fontSize: "16px" }} align="center">
+                    8698793479
+                  </TableCell>
+                  <TableCell sx={{ fontSize: "16px" }} align="center">
+                    Computer
+                  </TableCell>
+                  <TableCell sx={{ fontSize: "16px" }} align="center">
+                    TE
+                  </TableCell>
+                  <TableCell
+                    sx={{ fontSize: "16px", cursor: "pointer" }}
+                    align="center"
+                  >
+                    <OpenInNew />
+                  </TableCell>
                 </TableRow>
               ))}
             </TableBody>
