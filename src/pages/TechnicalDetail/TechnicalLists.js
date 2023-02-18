@@ -2,7 +2,8 @@ const TechnicalLists = [
   {
     id: 1,
     name: "circuitmania",
-    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+    imgSrc:
+      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Circuit Mania",
     headingPara:
       "ANSYS is a general-purpose, finite-element modeling package for numerically solving a wide variety of mechanical problems. These problems include static/dynamic, structural analysis, heat transfer, and fluid problems, as well as acoustic and electromagnetic problems. There are two methods to use ANSYS.",
@@ -21,6 +22,7 @@ const TechnicalLists = [
       "10. Other aplications in a simulation",
       "11. Analysing results and generating final solutions.",
     ],
+    amount: "Rs. 40/-",
 
     // paymentLink: "https://rzp.io/l/Karma-Ansys",
     redirectLink: "/events/entc/circuitmania",
@@ -28,7 +30,8 @@ const TechnicalLists = [
   {
     id: 2,
     name: "gameofcode",
-    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+    imgSrc:
+      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Game of Code",
     headingPara:
       "Arduino is an Open-source electronic prototyping platform enabling users to create interactive electronic objects. A step by step introduction to the Arduino, electronic circuits and programming. If this is your first experience with Arduino, the UNO is the most robust board you can start playing with. The UNO is the most used and documented board of the whole Arduino & Genuino family.",
@@ -42,6 +45,7 @@ const TechnicalLists = [
       "5. Basic Sensors and Actuator interfacing with Arduino.",
       "6. Project development using Arduino.",
     ],
+    amount: "Rs. 40/-",
 
     // paymentLink: "https://rzp.io/l/Karma-Arduino",
     redirectLink: "/events/entc/gameofcode",
@@ -49,7 +53,8 @@ const TechnicalLists = [
   {
     id: 3,
     name: "speedheist",
-    imgSrc: "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+    imgSrc:
+      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
     heading: "Speed Heist",
     headingPara:
       "A bill of quantities is a document used in tendering in the construction industry in which materials, parts, and labour (and their costs) are itemized.They are still used extensively in building contracts, whereas civil engineering contracts tender to favor target price contracts of one form or another is a list of items taken from a standard method of measurement. ",
@@ -64,10 +69,11 @@ const TechnicalLists = [
       "6. Recognize the relationship between the application of the measurement formulae and the Units of measurement prescribed by the standard system of measuring builders’ work.",
     ],
 
+    amount: "Rs. 40/-",
+
     // paymentLink: "https://rzp.io/l/Karma-BOQ",
     redirectLink: "/events/entc/speedheist",
   },
-  
 ];
 
 export default TechnicalLists;

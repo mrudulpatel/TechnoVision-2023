@@ -14,8 +14,12 @@ const CulturalLists = [
       "4. Presentation: Participants should be clear about their vision and idea.",
     rule5:
       "5. It is important to mention participant's name, college name, year, department, and phone number on the back side of the poster.",
-
+    rule6: "PRIZE MONEY",
+    rule7: "1st Prize: ₹5000/-",
+    rule8: "2nd Prize: ₹3000/-",
+    rule9: "3rd Prize: ₹2000/-",
     regFee: " 100/- per person",
+    amount: "Rs. 100/-",
 
     contact1: "Nilima Bhadane | +91 9021212355",
     contact2: "Disha Patil | +91 9405830531",
@@ -33,12 +37,17 @@ const CulturalLists = [
     rule1: "1. Game should already be installed",
     rule2: "2. All participants must have earphones/headphones",
     rule3: "3. Minimum 2 players should be there in squad",
-    regFee: " 100/- per Squad",
+    rule4: "PRIZE MONEY",
+    rule5: "1st Prize: ₹5000/-",
+    rule6: "2nd Prize: ₹3000/-",
+    rule7: "3rd Prize: ₹2000/-",
+    regFee: " 200/- per Squad",
+    amount: "Rs. 200/-",
 
     contact1: "Vaibhav Vyas | +91 87883 66073",
     contact2: "Gaurav Pandit | +91 83086 50292",
 
-    paymentLink: "https://rzp.io/l/Karma22LightMusic",
+    // paymentLink: "https://rzp.io/l/Karma22LightMusic",
     redirectLink: "/events/cs/egaming",
   },
   {
@@ -61,13 +70,13 @@ const CulturalLists = [
     rule6: "1st Prize: ₹5000/-",
     rule7: "2nd Prize: ₹3000/-",
     rule8: "3rd Prize: ₹2000/-",
-
-    regFee: " 200/- per person",
+    amount: "Rs. 100/-",
+    regFee: " 100/- per person",
 
     contact1: "Atharva Kurumbhatte | +91 9422202294",
     contact2: "Mrudul Patel | +91 8698793479",
 
-    paymentLink: "https://rzp.io/l/FacePainting",
+    // paymentLink: "https://rzp.io/l/FacePainting",
     redirectLink: "/events/cs/istart",
   },
 ];

@@ -15,6 +15,7 @@ const Technical = () => {
             key={list.id}
             imgSrc={list.imgSrc}
             heading={list.heading}
+            amount={list.amount}
             redirectLink={list.redirectLink}
           />
         );

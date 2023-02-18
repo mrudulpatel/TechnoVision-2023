@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import db from "./firebase";
 import { collection, doc, onSnapshot, setDoc } from "firebase/firestore";
+import jsPDF from "jspdf";
+import ReceiptBook from "./receiptbook.png";
 
 const Form = (props) => {
   const [open, setOpen] = useState(false);
@@ -75,17 +77,38 @@ const Form = (props) => {
       image: image,
       receiptId: receiptId,
     }).then(() => {
-      console.log("Saved");
-      setDept("");
-      setMail("");
-      setNumber("");
-      setYear("");
-      setfullName("");
-      setImage("");
-      setReceiptId("");
-      setFlag(true);
-      setFinalID(id);
+      generatePdf();
+      // console.log("Saved");
+      // setDept("");
+      // setMail("");
+      // setNumber("");
+      // setYear("");
+      // setfullName("");
+      // setImage("");
+      // setReceiptId("");
+      // setFlag(true);
     });
+  };
+
+  const generatePdf = () => {
+    const pdf = new jsPDF("landscape", "px", ["2339", "1655"]);
+    pdf.addImage(
+      ReceiptBook,
+      0,
+      0,
+      pdf.internal.pageSize.width,
+      pdf.internal.pageSize.height
+    );
+    pdf.setFontSize(100);
+    pdf.text(744, 540, `${receiptId}`);
+    pdf.setFontSize(70);
+    pdf.text(587, 646, `${id}`);
+    pdf.text(451, 766, `${fullName}`);
+    pdf.text(239, 1161, `${sessionStorage.getItem("eventName")}`);
+    pdf.text(1727, 1161, `${sessionStorage.getItem("amount")}`);
+    pdf.save(`${id}.pdf`);
+    setFlag(true);
+    setFinalID(id);
   };
 
   return (
@@ -188,7 +211,12 @@ const Form = (props) => {
             >
               Click to Pay
             </a>
-            <button className={classes.btn1} onClick={() => setOpen(!open)}>
+            <button
+              className={classes.btn1}
+              onClick={() => {
+                setOpen(!open);
+              }}
+            >
               Register
             </button>
           </form>
