@@ -25,7 +25,7 @@ const TechnicalDetail = () => {
             <img
               className={classes.img}
               src={technical[0].imgSrc}
-              alt="Desafio"
+              alt="poster"
             />
           </div>
           <div className={classes.scrollBox}>
@@ -34,7 +34,7 @@ const TechnicalDetail = () => {
               <p className={classes.para}>{technical[0].headingPara}</p>
               <h3 className={classes.heading}>Certification</h3>
               <p className={classes.para}>{technical[0].certiPara}</p>
-              <h3 className={classes.heading}>Learning Outcomes</h3>
+              <h3 className={classes.heading}>Event Rounds</h3>
 
               {technical[0].rules.map((map) => {
                 return <p className={classes.para}>{map}</p>;

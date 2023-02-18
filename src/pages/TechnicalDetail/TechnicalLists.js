@@ -1,75 +1,76 @@
 const TechnicalLists = [
   {
     id: 1,
-    name: "circuitmania",
+    name: "strangercircuits",
     imgSrc:
-      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
-    heading: "Circuit Mania",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/strangercircuits.jpg?alt=media&token=056899f7-cc33-4882-be02-a49ecec2a671",
+    heading: "Stranger Circuits",
     headingPara:
-      "ANSYS is a general-purpose, finite-element modeling package for numerically solving a wide variety of mechanical problems. These problems include static/dynamic, structural analysis, heat transfer, and fluid problems, as well as acoustic and electromagnetic problems. There are two methods to use ANSYS.",
+      "Students will be asked to simulate circuit based on design condition. Proteus will be used for the conduction. The team should be of 2 members",
     certiPara:
-      "On successful completion of this 1-day Workshop, you will earn yourself a Certification in Ansys.",
+      "On successful completion of event, you will earn yourself a Certification of Participation.",
     rules: [
-      "1. Introduction to ansys and use/applications in various fields.",
-      "2. How to model any part or assembly in ansys.",
-      "3. How to import modelled parts/assembly in Ansys.",
-      "4. Structural analysis (basic start).",
-      "5. Thermal analysis",
-      "6. Explicit Dynamic analysis",
-      "7. Adding materials in Ansys",
-      "8. Meshing in Ansys",
-      "9. Solving the parts/ simulation",
-      "10. Other aplications in a simulation",
-      "11. Analysing results and generating final solutions.",
+      "Round 1: TECHNICAL QUIZ",
+      "Round 2: CIRCUIT BUILDING & SIMULATION",
+      "Round 3: TIE BREAKER ROUND",
+      "PRIZE MONEY",
+      "1st Prize: ₹5000/-",
+      "2nd Prize: ₹3000/-",
+      "Contact: Shubham Shastri - +918329681038",
+      "Entry Fees: ₹100/- per team",
     ],
-    amount: "Rs. 40/-",
+    amount: "Rs. 100/-",
 
     // paymentLink: "https://rzp.io/l/Karma-Ansys",
-    redirectLink: "/events/entc/circuitmania",
+    redirectLink: "/events/entc/strangercircuits",
   },
   {
     id: 2,
-    name: "gameofcode",
+    name: "gameofcodes",
     imgSrc:
-      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
-    heading: "Game of Code",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/gameofcodes.jpg?alt=media&token=4f635806-a642-48a6-bdd1-10154b281830",
+    heading: "Game of Codes",
     headingPara:
-      "Arduino is an Open-source electronic prototyping platform enabling users to create interactive electronic objects. A step by step introduction to the Arduino, electronic circuits and programming. If this is your first experience with Arduino, the UNO is the most robust board you can start playing with. The UNO is the most used and documented board of the whole Arduino & Genuino family.",
+      "Participants compete individually to solve programming problems withing limited time frame. The main goal of this event is to challenge the coding skills and foster learning opportunities.",
     certiPara:
-      "On successful completion of this 1-day Workshop, you will earn yourself a Certification in Arduino.",
+      "On successful completion of this event, you will earn yourself a Certificate of Participation.",
     rules: [
-      "1. Understanding basics of Embedded System.",
-      "2. Applications of Embedded System.",
-      "3. Learning Arduino platform and it applications.",
-      "4. Arduino Simulator familiarization.",
-      "5. Basic Sensors and Actuator interfacing with Arduino.",
-      "6. Project development using Arduino.",
+      "Round 1: MCQ TEST (20 Questions, 20 Minutes)",
+      "Qualification rule for Round 1: Score above 14",
+      "Round 2: CODING BATTLE",
+      "Coding languages allowed: C, C++, Java, Javascript, Python",
+      "One Question for 20 minutes",
+      "Round 3: GAME OF CODES",
+      "Data Structures based coding question. Solve within 25 minutes",
+      "Prize Money",
+      "1st Prize: ₹5000",
+      "2nd Prize: ₹3000",
+      "Registration Fees: ₹100/- per person",
+      "Contact: Aditya Patil - 7666511818",
     ],
-    amount: "Rs. 40/-",
+    amount: "Rs. 100/-",
 
     // paymentLink: "https://rzp.io/l/Karma-Arduino",
-    redirectLink: "/events/entc/gameofcode",
+    redirectLink: "/events/entc/gameofcodes",
   },
   {
     id: 3,
     name: "speedheist",
     imgSrc:
-      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/speed%20heist.jpg?alt=media&token=b6d7a460-b959-4370-bd62-7aff9cb90994",
     heading: "Speed Heist",
     headingPara:
-      "A bill of quantities is a document used in tendering in the construction industry in which materials, parts, and labour (and their costs) are itemized.They are still used extensively in building contracts, whereas civil engineering contracts tender to favor target price contracts of one form or another is a list of items taken from a standard method of measurement. ",
-    certiPara:
-      "On successful completion of this 1-day Workshop, you will earn yourself a Certification in Introduction to Flutter.",
+      "Experience the nostalgia while inviting the child withing you and enjoy the controlled car race again.",
+    // certiPara:
+    //   "On successful completion of this 1-day Workshop, you will earn yourself a Certification in Introduction to Flutter.",
     rules: [
-      "1. Quantity take of  civil works.",
-      "2. Drawing review and reading.",
-      "3. How to import modelled parts/assembly in Ansys.",
-      "4. Understand what Bills of Quantities are. ",
-      "5. Know the composition of Bills of Quantities. ",
-      "6. Recognize the relationship between the application of the measurement formulae and the Units of measurement prescribed by the standard system of measuring builders’ work.",
+      "A Race track with various obstacles",
+      "Remote Controlled Cars to be raced",
+      "Entry Fees: ₹20/-",
+      "Contact: Yogesh Jangid - 8302191920"
     ],
 
-    amount: "Rs. 40/-",
+    amount: "Rs. 20/-",
 
     // paymentLink: "https://rzp.io/l/Karma-BOQ",
     redirectLink: "/events/entc/speedheist",
