@@ -2,21 +2,18 @@ const CulturalLists = [
   {
     id: 1,
     name: "projectposterpresentation",
-    para: "Are you ready to beat you boredom?and fly high in the world of imagination,then the opportunity is here,𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 brings you '𝐋𝐀𝐏𝐈𝐙' 𝐏𝐞𝐧𝐜𝐢𝐥 𝐃𝐫𝐚𝐰𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 ,Let your minds step into world of imagination...let's be engaged for while lost in thoughts... Let your white papers be kissed by pencil..",
+    para: "Any Project can be chosen and a presentation can be submitted to elaborate on it",
     imgSrc:
-      "https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg",
-    heading: "PROJECT POSTER PRESENTATION",
-    rule1: "1. Entries must follow the competition theme.",
-    rule2: "2. It is an open event, on the spot registrations are allowed.",
-    rule3: "3. Only one entry per person, no group entries allowed.",
-    rule4: "4. Participants are required to bring their own pencils.",
-    rule5: "5. Decision of the judges will be final and cannot be challenged.",
-    rule6: "6. There will be a time limit for completion.",
-    rule7: "7. A finished art should not contain any other materials.",
-    rule8:
-      "8. Each participants will receive a registration number after the registration, it should be written on the top left corner of the final art.",
-
-    // criteria: ["Will update the rules and criteria on the website."],
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/posternexus%5B1%5D.jpg?alt=media&token=e5ffe2c3-ac56-4968-abb6-d7f4a79dccc4 ",
+    heading: "PosterNexus (Project Poster Presentation)",
+    rule1: "1. Event is open to all.",
+    rule2: "2. The poster should be of A3 size or larger.",
+    rule3:
+      "3. Entries: Individual or groups of at most four members  are eligible.",
+    rule4:
+      "4. Presentation: Participants should be clear about their vision and idea.",
+    rule5:
+      "5. It is important to mention participant's name, college name, year, department, and phone number on the back side of the poster.",
 
     regFee: " 100/- per person",
 
@@ -31,7 +28,7 @@ const CulturalLists = [
     name: "egaming",
     // para: "Music is the universal language of mankind. Where words fail, music speaks. 𝐊𝐀𝐑𝐌𝐀'𝟐𝟐 is here with ' 𝐋𝐢𝐠𝐡𝐭 𝐌𝐮𝐬𝐢𝐜 𝐂𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧 '. Do participate and never miss a chance to show up your passion. Let your words speak through music !",
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/Battle%20In%20Style.png?alt=media&token=45516c7d-be14-463d-b8d7-a1aaa5c31f2b",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/Battle_in_style%5B1%5D.jpg?alt=media&token=2bbf5103-f75d-4b39-aeca-733fadf2541b",
     heading: "Battle In Style (E - GAMING)",
     rule1: "1. Game should already be installed",
     rule2: "2. All participants must have earphones/headphones",
@@ -53,7 +50,7 @@ const CulturalLists = [
     ideas, which could range from groundbreaking technologies and
     disruptive startups to game-changing products and services.`,
     imgSrc:
-      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/venture'sarena.png?alt=media&token=1ff3caa2-c87c-4896-8a52-6ebc3cf7ddc5",
+      "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/the_venture's_arena%5B1%5D.jpg?alt=media&token=2c4c9eef-0383-46df-ab53-dab88db0448a",
     heading: "The Venture's Arena (i-Start)",
     rule1: "1. Time Limit: 10 to 15 minutes",
     rule2: "2. Preparation: Participants should have a proper business model",
