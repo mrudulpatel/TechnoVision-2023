@@ -3,8 +3,10 @@ import Background from "../../UI/Background";
 import React, { useEffect } from "react";
 import { auth, provider } from "../../pages/CulturalDetail/Form/firebase.js";
 import {  signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { useNavigate } from "react-router-dom";
 
 const Gallery = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -20,6 +22,9 @@ const Gallery = () => {
         // The signed-in user info.
           const user = result.user;
           console.log(user);
+          sessionStorage.setItem("email", user.email);
+          sessionStorage.setItem("name", user.displayName);
+          navigate(`/admin/${user.email}`);
         // IdP data available using getAdditionalUserInfo(result)
         // ...
       })

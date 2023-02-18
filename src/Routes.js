@@ -7,6 +7,7 @@ import Loader from "./UI/Loader/Loader";
 import Footer from "./components/Footer/Footer";
 import VideoPlayer from "./pages/Gallery/VideoPlayer";
 import SuperAdmin from "./components/SuperAdmin/SuperAdmin"
+import Admin from "./components/Admin/Admin";
 
 const Gallery = React.lazy(() => import("./pages/Gallery/Gallery"));
 const CulturalDetail = React.lazy(() =>
@@ -47,6 +48,7 @@ const MyRoutes = () => {
             <Route path="/events/civil/:id" element={<HackathonDetail />} />
             <Route path="/events/mechanical/:id" element={<GamesDetail />} />
             <Route exact path="/superadmin" element={<SuperAdmin />} />
+            <Route path="/admin/:id" element={<Admin />} />
           </Routes>
         </Suspense>
       </main>
