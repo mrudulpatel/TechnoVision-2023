@@ -6,6 +6,7 @@ import {
   faInstagram,
   faLinkedin,
   faYoutube,
+  faWhatsapp
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import { faNotesMedical, faVoicemail } from "@fortawesome/free-solid-svg-icons";
@@ -17,13 +18,14 @@ const Footer = () => {
     <footer className={classes.footer}>
       <div className={classes.row}>
         <div className={classes.col}>
-          <a href="#top"><img
-            className={classes.karma}
-            src={
-              "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/TV_LOGO-removebg-preview.png?alt=media&token=e5be8a6e-8306-48ac-98ab-617b84741c3d"
-            }
-            alt="Technovision logo"
-          />
+          <a href="#top">
+            <img
+              className={classes.karma}
+              src={
+                "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/TV_LOGO-removebg-preview.png?alt=media&token=e5be8a6e-8306-48ac-98ab-617b84741c3d"
+              }
+              alt="Technovision logo"
+            />
           </a>
           <p className={classes.para}>
             The TechnoVision event, held annually by the esteemed JSPM group of
@@ -38,12 +40,47 @@ const Footer = () => {
         <div className={classes.col}>
           <h3>Contact us</h3>
           <ul>
-          <li><p className={classes.email}><u><b>Email: </b></u><a href="mailto:jspmtechminds2022@gmail.com">jspmtechminds2022@gmail.com</a></p></li>
-          <li><p className={classes.contactNo}><u><b>Developers</b></u></p></li>
-          <li><p className={classes.contactNo}>Mrudul Patel - <a href="https://wa.me/918698793479">8698793479</a></p></li>
-          <li><p className={classes.contactNo}>Atharva Kurumbhatte - <a href="https://wa.me/919422202294">9422202294</a></p></li>
-          <li><p className={classes.contactNo}>Mukund Chamriya - <a href="https://wa.me/917447657204">7447657204</a></p></li>
-          <li><p className={classes.contactNo}>Ashwin Kapile - <a href="https://wa.me/919370206138">9370206138</a></p></li>
+            <li>
+              <p className={classes.email}>
+                <u>
+                  <b>Email: </b>
+                </u>
+                <a href="mailto:jspmtechminds2022@gmail.com">
+                  jspmtechminds2022@gmail.com
+                </a>
+              </p>
+            </li>
+            <li>
+              <p className={classes.contactNo}>
+                <u>
+                  <b>Developers</b>
+                </u>
+              </p>
+            </li>
+            <li>
+              <p className={classes.contactNo}>
+                Mrudul Patel -{" "}
+                <a href="https://wa.me/918698793479">8698793479</a>
+              </p>
+            </li>
+            <li>
+              <p className={classes.contactNo}>
+                Atharva Kurumbhatte -{" "}
+                <a href="https://wa.me/919422202294">9422202294</a>
+              </p>
+            </li>
+            <li>
+              <p className={classes.contactNo}>
+                Mukund Chamriya -{" "}
+                <a href="https://wa.me/917447657204">7447657204</a>
+              </p>
+            </li>
+            <li>
+              <p className={classes.contactNo}>
+                Ashwin Kapile -{" "}
+                <a href="https://wa.me/919370206138">9370206138</a>
+              </p>
+            </li>
           </ul>
         </div>
 
@@ -51,13 +88,13 @@ const Footer = () => {
           <h3>Follow us on</h3>
           <div className={classes.socialIcons}>
             <a
-              href="https://instagram.com/tech_minds.2022?igshid=NmE0MzVhZDY=https://instagram.com/karma.kmcthttps://instagram.com/tech_minds.2022?igshid=NmE0MzVhZDY="
+              href="https://chat.whatsapp.com/B9Kx2ux1ftf3rOfUeH5oDG"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon className={classes.icons} icon={faInstagram} />
+              <FontAwesomeIcon className={classes.icons} icon={faWhatsapp} />
             </a>
-            <a
+            {/* <a
               href="https://github.com/clubwebsiteTechTeam/MainWebsite"
               target="_blank"
               rel="noopener noreferrer"
@@ -70,7 +107,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon className={classes.icons} icon={faLinkedin} />
-            </a>
+            </a> */}
           </div>
           <div
             className={classes.col}
@@ -82,7 +119,7 @@ const Footer = () => {
           >
             <p>Live Views: </p>{" "}
             <img
-              style={{padding:"2px"}}
+              style={{ padding: "2px" }}
               src="https://hits.serv.rs/static/t43ssmlktqfi5gejzdfyf"
               height="30"
               alt="live_views"
