@@ -58,8 +58,8 @@ const Form = (props) => {
     setReceiptId(Math.floor(Math.random() * 100000));
   }, []);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    
     const docRef = doc(db, `${sessionStorage.getItem("eventName")}/${id}`);
     setDoc(docRef, {
       id: id,
@@ -123,7 +123,7 @@ const Form = (props) => {
               <FontAwesomeIcon icon={faXmark} size="3x" />
             </div>
           </div>
-          <form onSubmit={handleSubmit}>
+          <form >
             <div className={classes.inputBox}>
               <input
                 placeholder="Full Name"
@@ -205,7 +205,8 @@ const Form = (props) => {
             <button
               className={classes.btn1}
               onClick={() => {
-                setOpen(!open);
+                setOpen(true)
+                handleSubmit();
               }}
             >
               Register
