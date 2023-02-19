@@ -17,13 +17,14 @@ const Footer = () => {
     <footer className={classes.footer}>
       <div className={classes.row}>
         <div className={classes.col}>
-          <img
+          <a href="#top"><img
             className={classes.karma}
             src={
               "https://firebasestorage.googleapis.com/v0/b/technovision-48d0a.appspot.com/o/TV_LOGO-removebg-preview.png?alt=media&token=e5be8a6e-8306-48ac-98ab-617b84741c3d"
             }
             alt="Technovision logo"
           />
+          </a>
           <p className={classes.para}>
             The TechnoVision event, held annually by the esteemed JSPM group of
             Institutes, enables brilliant minds to develop in an interactive,
