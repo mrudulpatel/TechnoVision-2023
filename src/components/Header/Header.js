@@ -157,8 +157,8 @@ const Header = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="#ambassador">
-                  Register
+                <HashLink className={classes.homeLink} to="/superadmin">
+                  Admin Register
                 </HashLink>
               </Drop>
             </li>
