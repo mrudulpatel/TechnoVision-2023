@@ -127,3 +127,25 @@ ul li a:hover {
         flex-basis: 100%;
     }
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  li a {
+    color: lightskyblue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  li a:hover {
+    color: red;
+  }
+
+  

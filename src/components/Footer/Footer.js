@@ -36,13 +36,14 @@ const Footer = () => {
 
         <div className={classes.col}>
           <h3>Contact us</h3>
-          
-          <p className={classes.email}>jspmtechminds2022@gmail.com</p>
-          <p className={classes.contactNo}><u>Developers</u></p>
-          <p className={classes.contactNo}>Mrudul Patel - 8698793479</p>
-          <p className={classes.contactNo}>Atharva Kurumbhatte - 9422202294</p>
-          <p className={classes.contactNo}>Mukund Chamriya - 7447657204</p>
-          <p className={classes.contactNo}>Ashwin Kapile - 9370206138</p>
+          <ul>
+          <li><p className={classes.email}><u><b>Email: </b></u><a href="mailto:jspmtechminds2022@gmail.com">jspmtechminds2022@gmail.com</a></p></li>
+          <li><p className={classes.contactNo}><u><b>Developers</b></u></p></li>
+          <li><p className={classes.contactNo}>Mrudul Patel - <a href="https://wa.me/918698793479">8698793479</a></p></li>
+          <li><p className={classes.contactNo}>Atharva Kurumbhatte - <a href="https://wa.me/919422202294">9422202294</a></p></li>
+          <li><p className={classes.contactNo}>Mukund Chamriya - <a href="https://wa.me/917447657204">7447657204</a></p></li>
+          <li><p className={classes.contactNo}>Ashwin Kapile - <a href="https://wa.me/919370206138">9370206138</a></p></li>
+          </ul>
         </div>
 
         <div className={classes.col}>
