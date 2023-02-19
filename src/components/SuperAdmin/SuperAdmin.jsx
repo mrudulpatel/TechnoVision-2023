@@ -41,7 +41,7 @@ const Gallery = () => {
   return (
     <section className="gallerySection">
       <Background className="galleryBg"></Background>
-      <div className="row">
+      <div className="row1">
         <button className="btn" onClick={logIn}>Log In With Google</button>
       </div>
     </section>

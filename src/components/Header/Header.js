@@ -10,6 +10,8 @@ import { HashLink } from "react-router-hash-link";
 // import Logo from "./TV_LOGO-removebg-preview.png";
 import { ExpandMore } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
+import { signOut } from "firebase/auth";
+import { auth } from "../../pages/CulturalDetail/Form/firebase";
 const Scroll = require("react-scroll");
 
 const Header = () => {
@@ -18,12 +20,23 @@ const Header = () => {
   const [mobile, setMobile] = useState(false);
   const [drop, setDrop] = useState(false);
   const navigator = useNavigate();
-  // window.onscroll = () => {
-  //   isScrolled(window.pageYOffset === 0 ? false : true);
-  //   return () => (window.onscroll = null);
-  // };
+  window.onscroll = () => {
+    isScrolled(window.pageYOffset === 0 ? false : true);
+    return () => (window.onscroll = null);
+  };
 
   console.log(window.location.pathname);
+
+  const logOut = () => {
+    signOut(auth)
+      .then(() => {
+        sessionStorage.removeItem("email");
+        sessionStorage.removeItem("name");
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  };
 
   return (
     <header
@@ -61,6 +74,28 @@ const Header = () => {
 
         <div className={classes.navbox}>
           <ul className={classes.nav}>
+            <li
+              className={classes.navLink}
+              hidden={window.location.pathname.includes("admin") ? false : true}
+            >
+              <Drop
+                activeClass={classes.active}
+                to="home"
+                spy="true"
+                smooth={true}
+                offset={-100}
+                duration={600}
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                <HashLink
+                  onClick={logOut}
+                  className={classes.homeLink}
+                  to="/#home"
+                >
+                  Logout
+                </HashLink>
+              </Drop>
+            </li>
             <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
@@ -172,6 +207,27 @@ const Header = () => {
           {/* Mobile Page */}
 
           <ul className={classes.mobileNav}>
+            <li
+              hidden={window.location.pathname.includes("admin") ? false : true}
+            >
+              <Drop
+                activeClass={classes.active}
+                to="home"
+                spy="true"
+                smooth={true}
+                offset={-100}
+                duration={600}
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                <HashLink
+                  onClick={logOut}
+                  className={classes.homeLink}
+                  to="/#home"
+                >
+                  Logout
+                </HashLink>
+              </Drop>
+            </li>
             <li>
               <Drop
                 onClick={() => setMobile(!mobile)}
