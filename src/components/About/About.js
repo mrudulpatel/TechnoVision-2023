@@ -18,7 +18,7 @@ const About = () => {
           </p>
 
           <p className={classes.para}>
-            This event is open to all students to all students of JSPM Narhe
+            This event is open to all students of JSPM Narhe
             Technical Campus, and provides a great opportunity for connecting
             and with others who share a passion for technology and innovation.
             With events like "Bridge crafting" from the Civil department, "The
