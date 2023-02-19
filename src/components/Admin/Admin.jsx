@@ -150,6 +150,7 @@ const Admin = () => {
                   registrations
                     .filter(
                       (item) =>
+                        item.name.includes(search) ||
                         item.name.toLowerCase().includes(search) ||
                         item.receiptId.toString().includes(search)
                     )
