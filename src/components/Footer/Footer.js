@@ -45,25 +45,6 @@ const Footer = () => {
           <p className={classes.contactNo}>Ashwin Kapile - 9370206138</p>
         </div>
 
-        <div className={`${classes.col} ${classes.links}`}>
-          <h3>Links</h3>
-          <ul>
-            <HashLink
-              to="/#about"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>About</li>
-            </HashLink>
-
-            <HashLink
-              to="/#contact"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Contact us</li>
-            </HashLink>
-          </ul>
-        </div>
-
         <div className={classes.col}>
           <h3>Follow us on</h3>
           <div className={classes.socialIcons}>
