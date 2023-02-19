@@ -2,10 +2,13 @@ import classes from "./Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
+  faGithub,
   faInstagram,
+  faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
+import { faNotesMedical, faVoicemail } from "@fortawesome/free-solid-svg-icons";
 // const Logo1 = require("./tm logo.png");
 // const Logo2 = require("./TV_LOGO-removebg-preview.png");
 
@@ -72,18 +75,18 @@ const Footer = () => {
               <FontAwesomeIcon className={classes.icons} icon={faInstagram} />
             </a>
             <a
-              href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g"
+              href="https://github.com/clubwebsiteTechTeam/MainWebsite"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon className={classes.icons} icon={faYoutube} />
+              <FontAwesomeIcon className={classes.icons} icon={faGithub} />
             </a>
             <a
-              href="https://www.facebook.com/karma.kmct/"
+              href="https://www.linkedin.com/feed/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon className={classes.icons} icon={faFacebook} />
+              <FontAwesomeIcon className={classes.icons} icon={faLinkedin} />
             </a>
           </div>
           <div
