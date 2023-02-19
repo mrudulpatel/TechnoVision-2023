@@ -65,7 +65,7 @@ const Footer = () => {
           <h3>Follow us on</h3>
           <div className={classes.socialIcons}>
             <a
-              href="https://instagram.com/karma.kmct"
+              href="https://instagram.com/tech_minds.2022?igshid=NmE0MzVhZDY=https://instagram.com/karma.kmcthttps://instagram.com/tech_minds.2022?igshid=NmE0MzVhZDY="
               target="_blank"
               rel="noopener noreferrer"
             >
