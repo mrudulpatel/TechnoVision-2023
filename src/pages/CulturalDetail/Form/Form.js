@@ -205,7 +205,7 @@ const Form = (props) => {
             <button
               className={classes.btn1}
               onClick={() => {
-                setOpen(true)
+                setOpen(false);
                 handleSubmit();
               }}
             >
