@@ -315,6 +315,23 @@ const Header = () => {
                 </HashLink>
               </Drop>
             </li>
+            <li
+              className={classes.navLink}
+            >
+              <Drop
+                activeClass={classes.active}
+                to="ambassador"
+                spy="true"
+                smooth={true}
+                offset={-120}
+                duration={600}
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                <HashLink className={classes.homeLink} to="/superadmin">
+                  Admin Register
+                </HashLink>
+              </Drop>
+            </li>
           </ul>
         </div>
       </div>
