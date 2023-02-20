@@ -190,10 +190,7 @@ const Form = (props) => {
             </div>
             <div className={classes.input}>
               Instructions <br />
-              1.) It is mandatory to fill out all details <br />
-              2.) After clicking on the "click to pay" button, a QR code will be
-              downloaded, and you must pay using that QR code only <br />
-              3.) Upload a screenshot of your payment once it has been completed{" "}
+              1.) Upload an image of file size less than <b>500kB</b>
               <br />
             </div>
             <button className={classes.btn1} type={"submit"}>
