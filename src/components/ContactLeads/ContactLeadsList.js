@@ -50,7 +50,7 @@ export const leads = [
     faculty: "Ms. Aboli Halwe",
     students: [
       {
-        name: "Utkarsha Konarde",
+        name: "Utkarsh Konarde",
         mobile: "+917517894472",
       },
       {
